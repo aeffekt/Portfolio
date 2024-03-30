@@ -1,0 +1,15 @@
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .text-container {
+    margin-left: 80px;
+  }
+
+  .rounded-circle {
+    border-radius: 50%;
+    width: 200px;     
+  }
