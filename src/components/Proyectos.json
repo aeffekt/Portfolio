@@ -1,20 +1,27 @@
 [
     {
         "title": "TECSEG",
-        "description": "Sistema de Gestión de Equipos",
+        "description": "Sistema de Gestión de Equipos. Herramienta fundamental para mejorar el servicio de postventa alojada en servidor local.",
         "images": "/images/tecseg_reporte.png",
+        "github": "https://github.com/aeffekt/TECSEG",
+        "url": "http://www.liecom.com/logros.html",
         "tech": "Python, Flask, MySQL, Bootstrap"
     },
     {
         "title": "GEST2020",
-        "description": "Sistema de Gestión de Compras",
+        "description": "Sistema de Gestión de Compras. Maestro de artículos, Listas y Órdenes de compras ordenador por proveedor con costos totales.",
         "images": "/images/gest_lista.png",
+        "github": "https://github.com/aeffekt/GEST2020",
+        "url": "",
         "tech": "Python, TKinter, SQLite"
+
     },
     {
         "title": "Telemedición XME",
-        "description": "Sistema de Telecontrol de equipos",
+        "description": "Sistema de Telecontrol de equipos y telemedición vía TCP/IP. Genera listas XLS con los datos de cada equipo. Hasta 100 equipos en simultáneo",
         "images": "/images/xme_1.png",
+        "github": "https://github.com/aeffekt/Telemedicion-XME",
+        "url": "",
         "tech": "LabVIEW"
     }
 ]

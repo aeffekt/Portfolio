@@ -7,8 +7,8 @@ import jsonData from'./Proyectos.json'
 function Proyectos() {    
 
   return (
-    <section className='proyectos-container'>
-      <h1 id="proyectos">Proyectos</h1>
+    <section className='proyectos-container'  id="proyectos">
+      <h1>Proyectos</h1>
       {
         jsonData.map((proyecto, index) => {
           return(
@@ -17,6 +17,8 @@ function Proyectos() {
               title={proyecto.title}
               description={proyecto.description}
               img={proyecto.images}
+              github={proyecto.github}
+              url={proyecto.url}
               tech={proyecto.tech}
             />
           )

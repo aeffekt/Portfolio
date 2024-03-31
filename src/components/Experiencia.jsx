@@ -7,7 +7,7 @@ function Experiencia(props) {
         <h3>{props.title}</h3>
         <h4>{props.company}</h4>
         <time>{props.date}</time>
-        <p>{props.description}</p>        
+        <h3>{props.description}</h3>        
         <ul>
             {Object.values(props.tasks).map((task, index) => (
                 <li key={index}>{task}</li>

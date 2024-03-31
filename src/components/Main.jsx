@@ -10,14 +10,10 @@ import Contacto from '../components/Contacto'
 function Main() {
   return (
     <div className='main-container' id='main'>      
-      <Home />
-      
-      <Proyectos />
-      
-      <Experiencias />
-      
-      <Acerca />
-      
+      <Home />      
+      <Proyectos />      
+      <Experiencias />      
+      <Acerca />      
       <Contacto />
     </div>
   )

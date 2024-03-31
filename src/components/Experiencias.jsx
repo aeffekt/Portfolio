@@ -2,11 +2,10 @@ import React from 'react'
 import jsonData from'./Experiencias.json'
 import Experiencia from './Experiencia'
 
-function Experiencias() {
-  console.log(jsonData)
+function Experiencias() {  
   return (
-    <section className='experiencias-container'>
-      <h1 id="experiencia">Experiencia</h1>
+    <section className='experiencias-container'  id="experiencia">
+      <h1>Experiencia</h1>
       {jsonData.map((experiencia, index) => {
         return(
           <Experiencia 

@@ -1,5 +1,6 @@
-.experiencia-container{
+.acerca-container .text-container {
     border-left: 1px solid white;
     margin: 70px;
     padding: 10px 40px;
+    max-width: 800px;
 }

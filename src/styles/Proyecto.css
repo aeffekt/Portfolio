@@ -1,12 +1,9 @@
-.project-container {
-    border: 1px solid #ba6c0ed4;    
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    width: auto;
-    display: block;
+.project-container {       
+    width: auto;        
+    border-left: 1px solid white;
+    margin: 70px;
+    padding: 10px 40px;
 }
-
 
 img{    
     width: 80%;

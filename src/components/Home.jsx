@@ -7,11 +7,11 @@ import logoCv from '../assets/cv.svg'
 
 function Home() {
   return (    
-    <section className='top-container'>
+    <section className='top-container' id='home'>
         <img loading='lazy' decoding='async' className="rounded-circle" src={ logoAA } alt="Imagen" />
         <div className='text-container'>
           <div>
-            <h1 id='home'>Agustin Arnaiz</h1>   
+            <h1>Agustin Arnaiz</h1>   
             <p>Analista de sistemas y desarrollador de software Full Stack.</p>
             <p>Sobre todas las cosas mi visión está centrada en crear cosas nuevas.</p>
           </div>
