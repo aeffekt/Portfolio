@@ -3,6 +3,7 @@ import React from 'react'
 function Acerca() {
   return (
     <section className='acerca-de-mi'>    
+    <h1 id="acerca-de-mi">Acerca de mí</h1>
     <p>
       Mi nombre es Agustín Arnaiz y soy una persona que ama resolver problemas. Mis primeros pasos como programador fue con el lenguaje "C" 
       y "Assembler" en el año 2000 durante mis estudios de Ingeniería Electrónica en la UTN FRC.

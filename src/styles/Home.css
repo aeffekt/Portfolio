@@ -4,17 +4,25 @@
     justify-content: center;
   }
 
-
 .text-container {
   margin-left: 80px;
 }
 
 .rounded-circle {
   border-radius: 50%;
-  width: 200px;     
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.734);
+  width: 200px;       
+  animation: pulsar 5s ease-in-out infinite;
 }
-  
-.icon{
-  padding: 10px 10px;    
+
+@keyframes pulsar{
+  0% {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 30px 0 rgba(235, 118, 0, 0.7);
+  }
+  100%{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+  }
+
 }

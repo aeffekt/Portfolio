@@ -6,6 +6,7 @@ function Experiencias() {
   console.log(jsonData)
   return (
     <section className='experiencias-container'>
+      <h1 id="experiencia">Experiencia</h1>
       {jsonData.map((experiencia, index) => {
         return(
           <Experiencia 

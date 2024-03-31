@@ -4,12 +4,21 @@
     right: 0;
     left: 0;    
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.412);    
+    background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     backdrop-filter: blur(5px);
-    height: 48px;
+    height: 68px;
     z-index: 999;
+    animation: navbar-scroll ease-out both;
+    animation-timeline: scroll(root);
+    animation-range: 0 300px;
+}
+
+@keyframes navbar-scroll{
+    to{ height: 38px;
+    
+    }
 }
 
 .ul-navbar{
@@ -22,7 +31,7 @@
     color: rgb(213, 213, 213);
     padding: 10px 40px 10px 40px;
     font-size: 20px;    
-    transition: all 0.15s linear;           
+    transition: all 0.15s ease-out;           
 }
 
 .ul-navbar li:hover{

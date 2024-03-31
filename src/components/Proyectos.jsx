@@ -8,6 +8,7 @@ function Proyectos() {
 
   return (
     <section className='proyectos-container'>
+      <h1 id="proyectos">Proyectos</h1>
       {
         jsonData.map((proyecto, index) => {
           return(
