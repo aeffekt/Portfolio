@@ -1,0 +1,20 @@
+[
+    {
+        "title": "TECSEG",
+        "description": "Sistema de Gestión de Equipos",
+        "images": "/images/tecseg_reporte.png",
+        "tech": "Python, Flask, MySQL, Bootstrap"
+    },
+    {
+        "title": "GEST2020",
+        "description": "Sistema de Gestión de Compras",
+        "images": "/images/gest_lista.png",
+        "tech": "Python, TKinter, SQLite"
+    },
+    {
+        "title": "Telemedición XME",
+        "description": "Sistema de Telecontrol de equipos",
+        "images": "/images/xme_1.png",
+        "tech": "LabVIEW"
+    }
+]

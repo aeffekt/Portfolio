@@ -1,14 +1,27 @@
 import React from 'react'
+import '../styles/Proyectos.css'
+import Proyecto from './Proyecto'
+import jsonData from'./Proyectos.json'
 
-function Proyectos() {
+
+function Proyectos() {    
+
   return (
-    <section className='proyectos-container' id='proyectos'>
-        <h2>  Proyectos </h2>
-        <h3>TECSEG</h3>
-        <h3>GEST2020</h3>
-        <h3>TELEMEDICIÓN XME</h3>
-
-      </section>
+    <section className='proyectos-container'>
+      {
+        jsonData.map((proyecto, index) => {
+          return(
+            <Proyecto 
+              key={index} 
+              title={proyecto.title}
+              description={proyecto.description}
+              img={proyecto.images}
+              tech={proyecto.tech}
+            />
+          )
+        })
+      }
+     </section>
   )
 }
 

@@ -1,19 +1,18 @@
 #root {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-html, body{    
+html, body{
   font-size: 20px;
   text-align: center;
-  background-image: linear-gradient(to bottom right, rgb(1, 0, 28), rgb(31, 21, 21));
+  background-image: linear-gradient(to bottom right, rgb(0, 33, 43), rgb(20, 0, 14));
 }
 
 h1, h3{
   color: #ff9d00d4;
 }
-
-section{
-  border: 1px solid #757575d4;
-  border-radius: 10px;
+.icon{
+  width: 30px;
+  height: 30px;  
 }

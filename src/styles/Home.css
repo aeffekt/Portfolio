@@ -5,11 +5,16 @@
   }
 
 
-  .text-container {
-    margin-left: 80px;
-  }
+.text-container {
+  margin-left: 80px;
+}
 
-  .rounded-circle {
-    border-radius: 50%;
-    width: 200px;     
-  }
+.rounded-circle {
+  border-radius: 50%;
+  width: 200px;     
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.734);
+}
+  
+.icon{
+  padding: 10px 10px;    
+}
