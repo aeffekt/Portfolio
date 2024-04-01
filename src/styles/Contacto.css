@@ -1,0 +1,9 @@
+.line{
+    display: flex;
+    align-items: center;       
+    
+}
+
+.line h2{
+    margin-right: 40px;
+}

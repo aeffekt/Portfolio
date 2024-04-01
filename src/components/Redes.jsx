@@ -1,21 +1,11 @@
-import React from 'react'
-import logoAA from '../assets/logo.png'
-import '../styles/Home.css'
 import logoGit from '../assets/github.svg'
 import logoLinkedIn from '../assets/linkedin.svg'
 import logoCv from '../assets/cv.svg'
 
-function Home() {
-  return (    
-    <section className='top-container' id='home'>
-        <img loading='lazy' decoding='async' className="rounded-circle" src={ logoAA } alt="Imagen" />
-        <div className='text-container'>
-          <div>
-            <h1>Agustin Arnaiz</h1>   
-            <p>Analista de sistemas y desarrollador de software Full Stack.</p>
-            <p>Sobre todas las cosas mi visión está centrada en crear cosas nuevas.</p>
-          </div>
-          <a href="https://www.linkedin.com/in/arnaizagustin/" target="_blank">
+function Redes() {
+  return (
+    <div id="redes" className='redes-container'>
+      <a href="https://www.linkedin.com/in/arnaizagustin/" target="_blank">
             <i title='Visitar LinkedIn'>
               <img className='icon' src={logoLinkedIn}></img>
             </i></a>
@@ -29,9 +19,8 @@ function Home() {
               <img className='icon' src={logoCv} alt="" />
             </i>
           </a>          
-        </div>        
-    </section>          
+    </div>
   )
 }
 
-export default Home
+export default Redes
