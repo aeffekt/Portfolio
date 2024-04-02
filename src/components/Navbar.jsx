@@ -3,7 +3,7 @@ import '../styles/Navbar.css'
 
 function Navbar() {
   return (
-    <nav className='navbar-container'>        
+    <nav className='navbar-container'>                
         <ul className='ul-navbar'>          
           <a href="#home"><li>Home</li></a>
           <a href="#proyectos"><li>Proyectos</li></a>

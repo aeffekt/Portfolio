@@ -2,4 +2,5 @@
     border-left: 1px solid var(--line-color);
     margin: 70px;
     padding: 0px 40px; 
+    line-height: 1;
 }

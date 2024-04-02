@@ -32,7 +32,7 @@ html, body{
 .icon{
   width: 30px;
   height: 30px;  
-  padding:0 10px;
+  padding:0 20px 0 0;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
 :target:before { /* hace un corrimiento del scroll de la navbar para centrar los elementos */
   content: "";
   display: block;
-  height: 10px;
+  height: 30px;
   visibility: hidden;
 }
 
@@ -73,9 +73,9 @@ section *{
 
 @keyframes reveal{
   0%{
-      translate: 0px 50px;
+      translate: 100px 50px;
       opacity: 0;
-      scale: .8;
+      scale: .7;
   }    
   100%{
       translate: 0 0;

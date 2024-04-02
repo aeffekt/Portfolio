@@ -1,6 +1,6 @@
 .acerca-container .text-container {
     border-left: 1px solid var(--line-color);
     margin: 70px;
-    padding: 10px 40px;
+    padding: 0px 40px;
     max-width: 800px;
 }
