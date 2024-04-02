@@ -1,20 +1,22 @@
 import React from 'react'
 import jsonData from'./Experiencias.json'
 import Experiencia from './Experiencia'
+import '../styles/Experiencia.css'
 
 function Experiencias() {  
   return (
     <section className='experiencias-container'  id="experiencia">
-      <h1>Experiencia</h1>
+      <h2 className='title-color'>Experiencia</h2>
       {jsonData.map((experiencia, index) => {
         return(
-          <Experiencia 
+          <Experiencia
             key={index}
             title={experiencia.title}
+            company={experiencia.company}
             description={experiencia.description}
             date={experiencia.date}
             tasks={experiencia.tasks}
-            company={experiencia.company}            
+            feats={experiencia.feats}            
           />
         )
       })}

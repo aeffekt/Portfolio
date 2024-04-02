@@ -8,7 +8,7 @@ function Proyectos() {
 
   return (
     <section className='proyectos-container'  id="proyectos">
-      <h1>Proyectos</h1>
+      <h2 className='title-color'>Proyectos</h2>
       {
         jsonData.map((proyecto, index) => {
           return(
@@ -19,7 +19,7 @@ function Proyectos() {
               img={proyecto.images}
               github={proyecto.github}
               url={proyecto.url}
-              tech={proyecto.tech}
+              tags={proyecto.tags}
             />
           )
         })

@@ -1,24 +1,37 @@
 [
     {
-    "date": "2020 - 2024",
+    "date": "abril 2020 - Actualidad",
     "title": "Desarrollador de Software",
     "company": "L.I.E. S.R.L.",
     "description": "Responsable del Diseño y desarrollo de sistemas informáticos con PYTHON.",
-    "tasks":{
-      "task1": "TECSEG - WEB APP PARA MEJORAR EL SERVICIO DE POSTVENTA.",
-      "task2": "GEST2020 - SOFTWARE DE ADMINISTRACIÓN DE ARTÍCULOS Y COMPRAS:",
-      "task3": "Configuración de servidor local (Windows Server 2012)"
-    }
+    "tasks":[
+      "Desarrollar software para mejorar el servicio de Postventa.",
+      "Desarrollar software para mejorar el sistema de compras a proveedores.",
+      "Programar servidor local Windows Server 2012."
+    ],    
+    "feats":[
+      "Incorporar nuevas tecnologías a la empresa por medio del software.",
+      "Mejorar el servicio de Postventa de la empresa gracias al sistema TECSEG.",
+      "Actualizar el sistema de compras a proveedores mediante el sistema GEST2020.",
+      "Reducir los tiempos de respuesta del sistema de compras e impresión de listas.",
+      "Instalar un servidor local para manejar los sistemas."
+    ]    
   },
   {
-    "date": "2012 - 2019",
+    "date": "mayo 2012 - marzo 2020",
     "title": "Técnico Informático",
     "company": "L.I.E. S.R.L.",
-    "description": "Encargado del diseño de sistemas de TV digital y desarrollo de software con LabVIEW",
-    "tasks":{
-      "task1": "Telemedición XME - SISTEMA DE CONTROL Y TELEMEDICIÓN DE EQUIPOS.",
-      "task2": "Configuración de Red local",
-      "task3": "Mantenimiento informático general"
-    }
+    "description": "Desarrollo de software con LabVIEW y programación de equipos de TV digital.",
+    "tasks":[
+      "Desarrollo de software para telemedición y telecontrol de equipos de TV de alta potencia.",
+      "Programación de equipos de TV digital (Encoders, Multiplexores, Moduladores, Etc).",
+      "Encargado del Mantenimiento informático general y diseño de la Red Local."
+    ],
+    "feats":[
+      "Incorporar un nuevo producto para comercializar (Telemedición XME V7).",
+      "Proveer a los clientes con la posibilidad de telecomandar equipos de alta Potencia.",
+      "Integrar nuevos modelos de equipos al software, desarrollando 7 versiones del mismo.",
+      "Programar los equipos de la red SFN de TV digital de la Provincia de San Luis, entre otras."
+    ]      
   }
 ]

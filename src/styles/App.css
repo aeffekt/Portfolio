@@ -2,6 +2,8 @@
   max-width: 1200px;
   margin: 0 auto;
   --distint-color: #ff9d00d4;  
+  --title-color: #ffc400d4;  
+  --line-color: #959595d4;
 }
 
 html, body{
@@ -12,23 +14,39 @@ html, body{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-strong{
-  color: var(--distint-color)
+.distint-color{
+  color: var(--distint-color);  
 }
 
+.title-color{
+  color: var(--title-color);  
+}
 
-h1, h3{
-  color: var(--distint-color);
+.text-sutil{
+  color: rgba(255, 255, 255, 0.662);
+  font-weight: 300;
 }
 
 .icon{
   width: 30px;
   height: 30px;  
-  padding: 10px;
+  padding:0 10px;
 }
 
 a {
   text-decoration: none;
+}
+
+.tags{  
+  display: inline;
+  color: grey;
+  background-color: #2c2c2c72;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  padding: 2px 7px;  
+  margin-right: 10px;  
+  user-select: none;
+  font-size: 10px;  
 }
 
 :target:before { /* hace un corrimiento del scroll de la navbar para centrar los elementos */
@@ -36,4 +54,30 @@ a {
   display: block;
   height: 10px;
   visibility: hidden;
+}
+
+section{
+  margin-top: 170px;    
+  margin-bottom: 200px;
+  text-align: left;
+  opacity: 1;    
+}
+
+section *{
+  animation: reveal 1s linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 20%;
+}
+
+@keyframes reveal{
+  0%{
+      translate: 0px 50px;
+      opacity: 0;
+      scale: .8;
+  }    
+  100%{
+      translate: 0 0;
+      opacity: 1;
+      scale: 1;
+  }
 }

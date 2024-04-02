@@ -1,5 +1,43 @@
-.proyectos-container{
-    max-width: 800px;
+.proyectos-container{    
     display: block;
 }
 
+.project-container {
+    border-left: 1px solid var(--line-color);
+    margin: 70px;
+    padding: 0px 40px;
+    columns: 300px 2;
+}
+
+.project-container *{
+    margin-bottom: 10px;
+}
+
+.links-container{    
+    margin-top: 40px;        
+}
+
+.links-container a{
+    border: 2px solid var(--distint-color);
+    border-radius: 10px;
+    margin-right: 20px; 
+    padding: 1px 7px;
+    color: var(--distint-color);
+    font-size: 16px;    
+}
+
+.links-container a:hover{
+    background-color: var(--distint-color);
+    color: white;    
+}
+
+.project-container img{    
+    margin-top: 10px;
+    width: 400px;        
+    transition: .2s;     
+}
+
+.project-container img:hover{
+    transform: scale(1.02);    
+    border: 1px solid var(--distint-color);
+}

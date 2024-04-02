@@ -1,7 +1,10 @@
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
-import Main from './components/Main'
+import Proyectos from './components/Proyectos'
+import Experiencias from './components/Experiencias'
+import Acerca from './components/Acerca'
+import Contacto from './components/Contacto'
 import Footer from './components/Footer'
 
 function App() {  
@@ -10,7 +13,10 @@ function App() {
     <>      
       <Navbar />
       <Header />
-      <Main />
+      <Proyectos />      
+      <Experiencias />      
+      <Acerca />      
+      <Contacto />
       <Footer />
     </>
   )
