@@ -4,9 +4,11 @@
   --distint-color: #ff9d00d4;  
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
+  --font-color: white;
 }
 
 html, body{
+  color: var(--font-color);
   scroll-behavior: smooth;
   font-size: 20px;
   text-align: center;
