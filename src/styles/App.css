@@ -83,3 +83,12 @@ section *{
       scale: 1;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #root{
+    font-size: 14px;
+  }
+  .ul-navbar li{    
+    font-size: 14px;     
+  }
+}
