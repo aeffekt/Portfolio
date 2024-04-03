@@ -3,7 +3,7 @@ function Proyecto(props) {
   return (
     <article className='project-container'>
       <h3 className='distint-color'>{props.title}</h3>
-      <div className="contenedor">
+      <div className="image-container">
         <figure>
           <img src={props.image} loading='async' />          
           <p className="capa">{props.description}</p>          

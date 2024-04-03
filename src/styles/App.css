@@ -6,6 +6,7 @@
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
   --font-color: white;
+  --button-color: rgb(3, 161, 200);
   max-width: var(--max-width);
 }
 
@@ -43,19 +44,6 @@ html, body{
 
 a {
   text-decoration: none;
-}
-
-.tags{  
-  display: inline-block;
-  color: grey;
-  background-color: #2c2c2c72;
-  border: 1px solid rgb(192, 192, 192);
-  border-radius: 5px;
-  padding: 2px 7px;  
-  margin-right: 10px;  
-  user-select: none;
-  font-size: 11px;  
-  margin-top: 0px;
 }
 
 :target:before { /* hace un corrimiento del scroll de la navbar para centrar los elementos */
