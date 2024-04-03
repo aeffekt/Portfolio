@@ -16,9 +16,8 @@ function Proyectos() {
               key={index} 
               title={proyecto.title}
               description={proyecto.description}
-              img={proyecto.images}
-              github={proyecto.github}
-              url={proyecto.url}
+              image={proyecto.image}
+              links={proyecto.links}              
               tags={proyecto.tags}
             />
           )

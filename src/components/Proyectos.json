@@ -1,27 +1,31 @@
 [
     {
         "title": "TECSEG",
-        "description": "Sistema de Gestión de Equipos y Clientes. Herramienta fundamental para mejorar el servicio de postventa. Información Técnica y Reportes Estratégicos en un solo lugar. Incluye roles de usuario, genera automáticamente archivos de información PDF, reseteo de contraseña por mail, encriptado de contraseñas y más.",
-        "images": [ "/images/tecseg_reporte.png"],
-        "github": "https://github.com/aeffekt/TECSEG",
-        "url": "http://www.liecom.com/logros.html",
+        "description": "Sistema de Gestión de Equipos y Clientes. Herramienta fundamental para mejorar el servicio de postventa.",
+        "image": "/images/tecseg_reporte.png",
+        "links": {
+                    "GitHub": "https://github.com/aeffekt/TECSEG",
+                    "YouTube": "https://youtu.be/R9mCTTRe128"
+                },
         "tags": ["Python", "Flask", "MySQL","JavaScript", "Bootstrap", "HTML", "CSS"]
     },
     {
         "title": "GEST2020",
-        "description": "Sistema de Gestión de Compras. Con un Maestro de artículos, Listas de artículos y generador de Órdenes de compras ordenadas por proveedor con costos totales e individuales. Backup automático de Base de Datos. Desarrollado en modo Caja Negra a partir del programa GEST hecho en DOS.",
-        "images": ["/images/gest_lista.png"],
-        "github": "https://github.com/aeffekt/GEST2020",
-        "url": "",
+        "description": "Sistema de Gestión de Compras. Con un Maestro de artículos, Listas de artículos y generador de Órdenes de compras.",
+        "image": "/images/gest.png",
+        "links": {
+                    "Github": "https://github.com/aeffekt/GEST2020"
+                },
         "tags": ["Python", "TKinter", "SQLite", "Pandas", "Numpy"]
 
     },
     {
         "title": "Telemedición XME",
-        "description": "Sistema de Telecontrol de equipos y telemedición vía TCP/IP. Genera listas XLS con los datos de cada equipo. Permite configurar hasta 100 equipos en simultáneo. Alarmas visuales y sonoras prgramables individuales y global según potencia de salida (Salida de RF) del Equipo. Con control de acceso al usuario por nombre y contraseña.",
-        "images": ["/images/xme_1.png"],
-        "github": "https://github.com/aeffekt/Telemedicion-XME",
-        "url": "",
-        "tags": ["LabVIEW", "LabVIEW 2010 SP1 Runtime"]
+        "description": "Sistema de Telecontrol de equipos y telemedición vía TCP/IP. Genera listas XLS con los datos de cada equipo. Permite configurar hasta 100 equipos en simultáneo.",
+        "image": "/images/xme_1.png",
+        "links": {
+                    "GitHub": "https://github.com/aeffekt/Telemedicion-XME"
+                },        
+        "tags": ["LabVIEW"]
     }
 ]

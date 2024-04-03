@@ -1,10 +1,16 @@
-#root {
-  max-width: 1200px;
+#root {  
+  color: var(--font-color);
   margin: 0 auto;
+  --max-width: 1200px;
   --distint-color: #ff9d00d4;  
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
   --font-color: white;
+  max-width: var(--max-width);
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
 }
 
 html, body{
@@ -30,8 +36,8 @@ html, body{
 }
 
 .icon{
-  width: 30px;
-  height: 30px;  
+  width: 50px;
+  height: 50px;  
   padding:0 20px 0 0;
 }
 
@@ -40,7 +46,7 @@ a {
 }
 
 .tags{  
-  display: inline;
+  display: inline-block;
   color: grey;
   background-color: #2c2c2c72;
   border: 1px solid rgb(192, 192, 192);
@@ -48,7 +54,8 @@ a {
   padding: 2px 7px;  
   margin-right: 10px;  
   user-select: none;
-  font-size: 10px;  
+  font-size: 11px;  
+  margin-top: 0px;
 }
 
 :target:before { /* hace un corrimiento del scroll de la navbar para centrar los elementos */
@@ -59,6 +66,8 @@ a {
 }
 
 section{
+  max-width: 1200px;
+  display: block;  
   margin-top: 170px;    
   margin-bottom: 200px;
   text-align: left;

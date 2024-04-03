@@ -1,42 +1,34 @@
-import React, { useState } from 'react'
-
 function Proyecto(props) {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % props.img.length);
-  };
-
-  const prevImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? props.img.length - 1 : prevIndex - 1
-    );
-  };
   return (
-    <article className='project-container'>        
-        <img src={props.img} alt={props.title} loading='async' />        
+    <article className='project-container'>
+      <h3 className='distint-color'>{props.title}</h3>
+      <div className="contenedor">
+        <figure>
+          <img src={props.image} loading='async' />          
+          <p className="capa">{props.description}</p>          
+        </figure>
+      </div>
+      <div className='tags-container' title="Stack info">
         {props.tags.map((tag, index) => (
-          <h6 key={index} className='tags'>{tag}</h6>
-        ))}      
-      
-        <h3 className='distint-color'>{props.title}</h3>
-        <small>{props.description}</small>
-        <div className='links-container'>
-          {props.github ? <a href={props.github} 
-                            target="_blank"
-                            alt="GitHub del proyecto"
-                            title='Ver código'>GitHub</a> : null
-          }
-          {props.url ? <a type="button"href={props.url} 
-                          target="_blank"
-                          alt="URL del proyecto"
-                          title='Visitar URL'>URL</a> : null
-          }      
-        </div>
-      
-      
+          <p key={index} className='tags'>{tag}</p>
+        ))}
+      </div>
+      <div className='links-container'>
+        {Object.entries(props.links).map(([name, link], linkIndex) => (
+          <a 
+            key={linkIndex} 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="button"
+            title="Abrir enlace"
+          >{name}
+          </a>
+        ))}        
+      </div>      
     </article>
-  )
+  );
 }
 
-export default Proyecto
+export default Proyecto;
