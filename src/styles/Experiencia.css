@@ -1,6 +1,18 @@
-.experiencia-container{
-    border-left: 1px solid var(--line-color);
-    margin: 70px;
-    padding: 0px 40px; 
-    line-height: 1;
+.experiencias-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: auto;
+}
+
+.experiencia-container{     
+    max-width: 500px;
+    justify-content: left;  
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+
+.experiencia-container li{
+    line-height: 1.2;
 }

@@ -1,8 +1,10 @@
-.top-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.header-container {    
+  width:1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   }
 
 .text-container {
@@ -11,7 +13,8 @@
 
 .rounded-circle {
   border-radius: 50%;
-  width: 250px;       
+  width: 250px;
+  height: 250px;
   animation: pulsar 5s ease-in-out infinite;
 }
 
@@ -25,5 +28,4 @@
   100%{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   }
-
 }

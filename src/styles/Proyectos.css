@@ -1,11 +1,16 @@
-.project-container {
+.proyectos-container{
     display: flex;
     flex-wrap: wrap;
-    border-left: 1px solid var(--line-color);
-    margin: 100px;
-    padding: 0px 40px;    
-    width: 800px;
+    width: 1200px;
+    height: auto;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;    
+    max-width: 600px;
     justify-content: center;        
+    margin-bottom: 100px;
 }
 
 .project-container *{
@@ -69,16 +74,16 @@
     border-radius: 10px;    
  }
  .image-container figure img{
-     width: 600px;
-     height: auto;
+     width: 500px;
+     aspect-ratio: 16/9;
      transition: all 400ms ease-in-out;          
  }
 
  .image-container figure .capa{
     position: absolute;
     top: 0;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 300px;
     background: rgba(0,0,0,0.6);
     transition: all 400ms ease-out;
     opacity: 0;
@@ -86,6 +91,7 @@
     text-align: center;    
     padding: 50px 10px;
  }
+ 
  .image-container figure:hover > .capa {
      opacity: 1;
      visibility: visible;
@@ -96,7 +102,7 @@
      margin-bottom: 10px;
  }
  .image-container figure:hover > img{
-     transform: scale(1.3);
+     transform: scale(1.4);
  }
  .image-container figure .capa {
     color: #fff;

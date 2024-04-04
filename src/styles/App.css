@@ -1,26 +1,25 @@
-#root {  
-  color: var(--font-color);
-  margin: 0 auto;
-  --max-width: 1200px;
+#root {      
+  --max-width: 100vw;
   --distint-color: #ff9d00d4;  
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
   --font-color: white;
-  --button-color: rgb(3, 161, 200);
-  max-width: var(--max-width);
+  --button-color: rgb(3, 161, 200);  
 }
 
 *, *::before, *::after{
   box-sizing: border-box;
 }
 
-html, body{
+html, body{  
+  max-width: var(--max-width);
+  display: flex;
+  flex-wrap: wrap;
   color: var(--font-color);
+  font-size: 20px;  
   scroll-behavior: smooth;
-  font-size: 20px;
-  text-align: center;
   background-image: linear-gradient(to bottom right, rgb(0, 33, 43), rgb(20, 0, 14));  
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 
 .distint-color{
@@ -42,7 +41,7 @@ html, body{
   padding:0 20px 0 0;
 }
 
-a {
+a li{
   text-decoration: none;
 }
 
@@ -53,16 +52,18 @@ a {
   visibility: hidden;
 }
 
-section{
-  max-width: 1200px;
-  display: block;  
-  margin-top: 170px;    
-  margin-bottom: 200px;
+.new-block{
+  margin-top: 160px;
+  margin-left: 50px;
+  display: block;
   text-align: left;
-  opacity: 1;    
+  opacity: 1; 
+}
+.new-block > h2{
+  margin-bottom: 50px;
 }
 
-section *{
+.new-block *{
   animation: reveal 1s linear both;
   animation-timeline: view();
   animation-range: entry 10% cover 20%;
@@ -78,14 +79,5 @@ section *{
       translate: 0 0;
       opacity: 1;
       scale: 1;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #root{
-    font-size: 14px;
-  }
-  .ul-navbar li{    
-    font-size: 14px;     
   }
 }

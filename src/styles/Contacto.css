@@ -1,15 +1,14 @@
-.contacto-container .text-container {
-    border-left: 1px solid var(--line-color);
-    margin: 70px;
-    padding: 0 40px;
-    max-width: 800px;
+.contacto-container{    
+    max-width: 1000px;
+    margin-bottom: 100px;
 }
 
 .line{
     display: flex;
-    align-items: center;      
+    align-items: center; 
+    margin-left: 50px;     
 }
 
 .line h2{
-    margin-right: 40px;
+    margin-right: 40px;    
 }

@@ -5,22 +5,25 @@ import '../styles/Experiencia.css'
 
 function Experiencias() {  
   return (
-    <section className='experiencias-container'  id="experiencia">
-      <h2 className='title-color'>Experiencia</h2>
-      {jsonData.map((experiencia, index) => {
-        return(
-          <Experiencia
-            key={index}
-            title={experiencia.title}
-            company={experiencia.company}
-            description={experiencia.description}
-            date={experiencia.date}
-            tasks={experiencia.tasks}
-            feats={experiencia.feats}            
-          />
-        )
-      })}
-    </section>      
+    <div className='new-block' id="experiencia">
+      <h2 className='title-color'>&#10003; Experiencia</h2>
+      <section className='experiencias-container'  >      
+        {jsonData.map((experiencia, index) => {
+          return(
+            <Experiencia
+              key={index}
+              title={experiencia.title}
+              company={experiencia.company}
+              description={experiencia.description}
+              date={experiencia.date}
+              tasks={experiencia.tasks}
+              feats={experiencia.feats}            
+            />
+          )
+        })}
+      </section>      
+    </div>
+
   )
 }
 
