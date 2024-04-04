@@ -1,6 +1,9 @@
-.footer-container{
-    
+.footer-container{    
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-container span{
+    margin-left: 30px;
 }

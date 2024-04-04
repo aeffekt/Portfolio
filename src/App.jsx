@@ -8,8 +8,7 @@ import Contacto from './components/Contacto'
 import Footer from './components/Footer'
 
 function App() {  
-
-  return (
+  return (    
     <>      
       <Navbar />
       <Header />

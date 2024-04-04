@@ -1,4 +1,6 @@
 .acerca-container{
-    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
     margin-left: 50px;
 }

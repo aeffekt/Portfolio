@@ -48,7 +48,7 @@ a li{
 :target:before { /* hace un corrimiento del scroll de la navbar para centrar los elementos */
   content: "";
   display: block;
-  height: 30px;
+  height: 100px;
   visibility: hidden;
 }
 
@@ -63,10 +63,10 @@ a li{
   margin-bottom: 50px;
 }
 
-.new-block *{
+.new-block {
   animation: reveal 1s linear both;
   animation-timeline: view();
-  animation-range: entry 10% cover 20%;
+  animation-range: entry 0% cover 30%;
 }
 
 @keyframes reveal{
