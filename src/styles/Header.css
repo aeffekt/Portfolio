@@ -10,23 +10,25 @@
 
 .text-container {
   margin-left: 80px;
-  animation: reveal 2s ease-out;    
+  animation: reveal 2s ease-out, appear 5s ease-in-out;    
+}
+
+.redes-container{  
+  margin-top: 40px;
 }
 
 .rounded-circle {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  animation: pulsar 5s ease-in-out infinite, appear 1.5s ease-out;
+  animation: pulsar 5s ease-in-out infinite, reveal 2s ease-out, appear 5s ease-in-out;
 }
 
 @keyframes appear{
-  from{
-    transform: translateX(-1000px);
+  0%{    
     opacity: 0;
   }
-  to{
-    transform: translateX(o);
+  100%{    
     opacity: 1;
   }
 }
