@@ -10,3 +10,4 @@ and run: > npm run dev
 packages:
 @mailjs/browser (contact email)
 sonner (toast)
+tech-stack-icons

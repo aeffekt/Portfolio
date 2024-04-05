@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Proyectos from './components/Proyectos'
 import Experiencias from './components/Experiencias'
+import StackIcons from './components/StackIcons'
 import Acerca from './components/Acerca'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
@@ -16,7 +17,8 @@ function App() {
       <Navbar />
       <Header />
       <Proyectos />      
-      <Experiencias />      
+      <Experiencias /> 
+      <StackIcons />
       <Acerca />      
       <Contacto />
       <Footer />

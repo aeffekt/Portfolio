@@ -1,0 +1,27 @@
+.stackicons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 30px;    
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(121, 121, 121, 0.05),rgba(121, 121, 121, 0.2),rgba(121, 121, 121, 0.05), rgba(0, 0, 0, 0));        
+}
+
+.fila h3{
+    margin-right: 30px;
+}
+
+.stackicon{    
+    width: 50px;
+    margin: 0 20px;
+    animation: reveal 7s ease-in-out;
+}
