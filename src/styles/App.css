@@ -4,7 +4,7 @@
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
   --font-color: white;
-  --button-color: rgb(3, 161, 200);  
+  --button-color: rgb(249, 105, 14);  
 }
 
 *, *::before, *::after{
@@ -63,7 +63,7 @@ a li{
   margin-bottom: 50px;
 }
 
-.new-block {
+.new-block, .project-container, .experiencias-container {
   animation: reveal 1s linear both;
   animation-timeline: view();
   animation-range: entry 0% cover 30%;

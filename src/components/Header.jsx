@@ -11,8 +11,10 @@ function Header() {
           <div className='text-container'>
             <div>
               <h1 className='distint-color'><strong>Agustín Arnaiz</strong></h1>   
-              <p>Analista de sistemas y  <strong className='distint-color'>desarrollador de software Full Stack</strong>.</p>
-              <p><i>Lo que más me motiva es <strong>crear cosas nuevas.</strong></i></p>
+              <p>Systems Analyst and <strong className='distint-color'>Full Stack Software Developer</strong>.</p>
+              <p>
+                <i>"I am highly driven by the process of <strong>creating new things.</strong></i>"
+              </p>
             </div>
             <Redes />
           </div>        

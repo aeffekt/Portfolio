@@ -18,10 +18,10 @@ export const Contacto = () => {
       })
       .then(
         () => {
-          window.alert('Mensaje enviado!');
+          window.alert('Message sent!');
         },
         (error) => {
-          window.alert('Falló el envío!');
+          window.alert('Failed to send the message!');
           console.log(error.text);
         },
       );
@@ -29,7 +29,7 @@ export const Contacto = () => {
 
   return (
     <div className='new-block' id="contacto">
-      <h2 className='title-color'>&#9998;  Contacto</h2>
+      <h2 className='title-color'>&#9998;  Contact</h2>
       <section className='contacto-container'>              
         <div className='text-container'>
           <div className='line'>
@@ -38,11 +38,11 @@ export const Contacto = () => {
           
           <div className="email-form">
             <form ref={form} onSubmit={sendEmail}>
-              <label>Nombre</label>
+              <label>Name</label>
               <input type="text" name="user_name" />
               <label>Email</label>
               <input type="email" name="user_email" />
-              <label>Mensaje</label>
+              <label>Message</label>
               <textarea name="message" />
               <input type="submit" value="Send" />
             </form>

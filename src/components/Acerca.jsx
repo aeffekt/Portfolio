@@ -3,30 +3,25 @@ import '../styles/Acerca.css'
 function Acerca() {
   return (
     <div className='new-block' id="acerca-de-mi">
-      <h2 className='title-color'>&#9755; Acerca de mí</h2>
+      <h2 className='title-color'>&#9755; About me</h2>
       <section className='acerca-container'>      
         <article className='text-container'>
-        <p>
-            Mi nombre es Agustín Arnaiz y  amo resolver problemas. 
-            Mis primeros pasos como programador fueron en 
-            <strong className='distint-color'> "C" 
-            y "Assembler" cuando estudiaba Ingeniería 
-            Electrónica en la UTN FRC</strong> en el año 2000. 
-            Hoy soy Analista de Sistemas y desarrollador de software.
+          <p>
+            My name is Agustín Arnaiz and I love solving problems.
+            <strong className='distint-color'> My first steps as a programmer were in "C" and "Assembler"</strong> when I was studying
+            Electronics Engineering at the <strong>UTN FRC</strong> back in the year 2000.
+            Today I am a Systems Analyst and Full Stacks Software Developer.
           </p>
           <p>
-            Con mi trabajo, he aportado cambios significativos a la empresa para la cuál
-            trabajo, como a sus clientes.
-            <strong className='distint-color'> he logrado integrar nuevas tecnologías y
-            con ello nuevas posibilidades.</strong> Como agilizar sus procesos de 
-            compras (GEST2020) y mejorar el servicio de 
-            post venta de equipos (TECSEG).
+            With my work, I have brought significant changes to the company for which I have work, as well as its clients. 
+            <strong className='distint-color'>I have managed to integrate new technologies, and with it, new possibilities. </strong>
+            How to streamline the purchases processes <strong><i>(GEST2020)</i></strong>  and improve it's after-sales customer service<strong> <i>(TECSEG)</i></strong>.
           </p>    
           <p>
-            Además, el sistema "Telemedición XME", <strong className='distint-color'> 
-            permitió comercializar un nuevo producto a los clientes</strong>, 
-            al brindar la posibilidad de comandar equipos en locaciones remotas, y con ello, poder brindar mejor 
-            asistencia ante problemas técnicos.
+            In addition, the <strong><i>"XME Telemetry"</i></strong>  system <strong className='distint-color'>  
+            allowed a new product to be marketed to customers, </strong>
+            By providing the possibility of commanding high power transmitters in remote locations, and with this, being able to provide
+            a better assistance with technical problems.
           </p>
         </article>        
       </section>

@@ -6,7 +6,7 @@ import '../styles/Experiencia.css'
 function Experiencias() {  
   return (
     <div className='new-block' id="experiencia">
-      <h2 className='title-color'>&#10003; Experiencia</h2>
+      <h2 className='title-color'>&#10003; Experience</h2>
       <section className='experiencias-container'  >      
         {jsonData.map((experiencia, index) => {
           return(

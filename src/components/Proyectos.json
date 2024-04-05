@@ -1,7 +1,7 @@
 [
     {
         "title": "TECSEG",
-        "description": "Sistema de Gestión de Equipos y Clientes. Herramienta fundamental para mejorar el servicio de postventa.",
+        "description": "Equipments and Client Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
         "links": {
                     "GitHub": "https://github.com/aeffekt/TECSEG",
@@ -11,7 +11,7 @@
     },
     {
         "title": "GEST2020",
-        "description": "Sistema de Gestión de Compras. Con un Maestro de artículos, Listas de artículos y generador de Órdenes de compras.",
+        "description": "Purchasing Management System. With an Item Master, Item Lists and Purchase Order generator.",
         "image": "/images/gest.png",
         "links": {
                     "Github": "https://github.com/aeffekt/GEST2020"
@@ -21,7 +21,7 @@
     },
     {
         "title": "Telemedición XME",
-        "description": "Sistema de Telecontrol de equipos y telemedición vía TCP/IP. Genera listas XLS con los datos de cada equipo. Permite configurar hasta 100 equipos en simultáneo.",
+        "description": "Remote control system for equipments and remote measurement via TCP/IP. Allows you to configure up to 100 equipments simultaneously and Generates XLS lists with the data of each.",
         "image": "/images/xme_1.png",
         "links": {
                     "GitHub": "https://github.com/aeffekt/Telemedicion-XME"

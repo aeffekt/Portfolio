@@ -1,37 +1,38 @@
 [
     {
-    "date": "abril 2020 - Actualidad",
-    "title": "Desarrollador de Software",
+    "date": "april 2020 - Today",
+    "title": "Software Developer",
     "company": "L.I.E. S.R.L.",
-    "description": "Responsable del Diseño y desarrollo de sistemas informáticos con PYTHON.",
-    "tasks":[
-      "Desarrollar software para mejorar el servicio de Postventa.",
-      "Desarrollar software para mejorar el sistema de compras a proveedores.",
-      "Programar servidor local Windows Server 2012."
+    "description": "Design and development of Python aplications.",
+    "tasks":[      
+      "Develop software to improve After-sales service.",
+      "Develop software to improve the supplier purchasing system.",
+      "Set up local server with Windows Server 2012."
     ],    
     "feats":[
-      "Incorporar nuevas tecnologías a la empresa por medio del software.",
-      "Mejorar el servicio de Postventa de la empresa gracias al sistema TECSEG.",
-      "Actualizar el sistema de compras a proveedores mediante el sistema GEST2020.",
-      "Reducir los tiempos de respuesta del sistema de compras e impresión de listas.",
-      "Instalar un servidor local para manejar los sistemas."
-    ]    
+      "Solely responsible for the department of software development",
+      "Incorporate new technologies into the company through software development.",
+      "Improve the company's After-sales service thanks to the TECSEG system.",
+      "Update the supplier purchasing system using the GEST2020 system.",
+      "Reduce response times of the purchasing and list printing system.",
+      "Install a local server to manage the systems."
+    ]
   },
   {
-    "date": "mayo 2012 - marzo 2020",
-    "title": "Técnico Informático",
+    "date": "may 2012 - march 2020",
+    "title": "IT technician",
     "company": "L.I.E. S.R.L.",
-    "description": "Desarrollo de software con LabVIEW y programación de equipos de TV digital.",
+    "description": "LabVIEW system developer and programming of digital TV equipments.",
     "tasks":[
-      "Desarrollo de software para telemedición y telecontrol de equipos de TV de alta potencia.",
-      "Programación de equipos de TV digital (Encoders, Multiplexores, Moduladores, Etc).",
-      "Encargado del Mantenimiento informático general y diseño de la Red Local."
+      "Development of software for telemetry and remote control of high-power TV equipment.",
+      "Programming of digital TV equipment (Encoders, Multiplexers, Modulators, Etc.)",
+      "In charge of general computer maintenance and design of the Local Network."
     ],
     "feats":[
-      "Incorporar un nuevo producto para comercializar (Telemedición XME V7).",
-      "Proveer a los clientes con la posibilidad de telecomandar equipos de alta Potencia.",
-      "Integrar nuevos modelos de equipos al software, desarrollando 7 versiones del mismo.",
-      "Programar los equipos de la red SFN de TV digital de la Provincia de San Luis, entre otras."
+      "Incorporate a new product to market (XME V7 Telemetry).",
+      "Provide customers with the possibility of telecommanding high-power equipment.",
+      "Integrate new equipment models into the software, developing 7 versions of the XME system.",
+      "Program all the equipments of the CH13 SFN digital TV network of the Province of San Luis, among others."
     ]      
   }
 ]

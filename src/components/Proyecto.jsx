@@ -22,7 +22,7 @@ function Proyecto(props) {
             target="_blank" 
             rel="noopener noreferrer"
             className="button"
-            title="Abrir enlace"
+            title="Open Link"
           >{name}
           </a>
         ))}        

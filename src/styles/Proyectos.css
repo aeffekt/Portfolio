@@ -44,6 +44,7 @@
     color: var(--button-color);
     font-size: 16px;   
     transition: all 150ms ease-out;     
+        
 }
 
 .links-container a:hover{
@@ -54,8 +55,7 @@
 .tags-container{
     width: 700px;
     margin-top: 0px;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;    
     display: flex;
     flex-wrap: wrap;
 }
@@ -67,7 +67,7 @@
     border: 1px solid rgb(192, 192, 192);
     border-radius: 5px;
     padding: 2px 7px;  
-    margin-right: 10px;  
+    margin: 0 5px;
     user-select: none;
     font-size: 12px;  
     margin-top: 0px;
