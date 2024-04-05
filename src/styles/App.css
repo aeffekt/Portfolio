@@ -56,10 +56,10 @@ a li{
   margin-top: 130px;  
   display: block;
   text-align: left;
-  opacity: 1; 
+  opacity: 1;
 }
 
-.new-block > h2{
+.new-block > h2{  
   margin-bottom: 20px;
   margin-left: 50px;
 }
@@ -67,7 +67,7 @@ a li{
 .new-block, .project-container, .experiencias-container {
   animation: reveal 1s linear both;
   animation-timeline: view();
-  animation-range: entry 0% cover 30%;
+  animation-range: entry 0% cover 30%;  
 }
 
 @keyframes reveal{

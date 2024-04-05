@@ -58,3 +58,7 @@ input[type="submit"]:hover {
     background-color: var(--button-color);
     color: white;    
 }
+
+.recaptcha{    
+    margin: 20px;    
+}
