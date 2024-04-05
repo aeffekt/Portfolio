@@ -53,14 +53,15 @@ a li{
 }
 
 .new-block{
-  margin-top: 160px;
-  margin-left: 50px;
+  margin-top: 130px;  
   display: block;
   text-align: left;
   opacity: 1; 
 }
+
 .new-block > h2{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .new-block, .project-container, .experiencias-container {

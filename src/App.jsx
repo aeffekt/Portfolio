@@ -7,9 +7,12 @@ import Acerca from './components/Acerca'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
 
+import { Toaster, toast } from 'sonner'
+
 function App() {  
   return (    
-    <>      
+    <>    
+      <Toaster richColors/>           
       <Navbar />
       <Header />
       <Proyectos />      
