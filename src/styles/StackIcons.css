@@ -20,8 +20,13 @@
     margin-right: 30px;
 }
 
-.stackicon{    
+.stackicons-container .fila span{    
     width: 40px;
     margin: 0 20px;
-    animation: reveal 7s ease-in-out;
+    animation: reveal 5s ease-out;
+    transition: 200ms ease-out;
+}
+
+.stackicons-container .fila span:hover{
+    scale: 1.25;    
 }

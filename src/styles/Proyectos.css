@@ -11,13 +11,22 @@
 .project-container {
     display: flex;
     flex-wrap: wrap;   
-    justify-content: center; 
-    border: 1px solid var(--line-color);
+    justify-content: center;     
     border-radius: 20px;
     margin: 10px;
     padding: 10px 0;
     width: 500px;    
-    height: auto;
+    height: auto;    
+    transition: 200ms ease-out;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+
+.project-container:hover {    
+    border: 1px solid var(--distint-color);
+    background-color: #14213c;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+
 }
 
 .project-container *{
