@@ -13,14 +13,21 @@ import { Toaster, toast } from 'sonner'
 function App() {  
   return (    
     <>    
-      <Toaster richColors/>           
+      <Toaster richColors/>      
       <Navbar />
+      <div className="nav-target" id="home"></div>
       <Header />
+      <div className="nav-target" id="proyectos"></div>
       <Proyectos />      
+      <div className="nav-target" id="experiencia"></div>
       <Experiencias /> 
+      <div className="nav-target" id="stackicons"></div>
       <StackIcons />
+      <div className="nav-target" id="acerca-de-mi"></div>
       <Acerca />      
+      <div className="nav-target" id="contacto"></div>
       <Contacto />
+
       <Footer />
     </>
   )

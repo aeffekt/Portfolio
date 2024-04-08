@@ -5,7 +5,7 @@ import '../styles/Header.css'
 
 function Header() {
   return (
-    <div className='new-block'  id='home'>
+    <div className='new-block'>
       <section className='header-container'>
           <img loading='lazy' decoding='async' className="rounded-circle" src={ logoAA } alt="Imagen" />
           <div className='text-container'>            

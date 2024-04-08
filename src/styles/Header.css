@@ -2,20 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  margin-top: 100px;
   width:auto;
   justify-content: center;
   align-items: center;
+  & .text-container {
+    margin-left: 80px;
+    animation: reveal 2s ease-out, appear 5s ease-in-out;
+    }
+    & .redes-container{ 
+      margin-top: 40px;
+    }
   
   }
-
-.text-container {
-  margin-left: 80px;
-  animation: reveal 2s ease-out, appear 5s ease-in-out;    
-}
-
-.redes-container{  
-  margin-top: 40px;
-}
 
 .rounded-circle {
   border-radius: 50%;

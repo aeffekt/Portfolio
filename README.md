@@ -13,5 +13,10 @@ react-google-recaptcha
 sonner (toast)
 tech-stack-icons
 
-
-Para usar emailjs, crear cuenta, crear template, registrarse en google reCaptha, registrar dominio (localhost), usar V2. import ReCaptcha y setear: sitekey="YOUR_WEB_KEY". En settings del template, reCaptcha_secret_key="YOUR_SECRET_KEY"
+Para usar emailjs:
+1- crear cuenta,
+2- crear template,
+3- registrarse en google reCaptha,
+4- registrar dominio (+localhost), usar V2.
+5- import ReCaptcha y setear: sitekey="YOUR_WEB_KEY".
+6- En settings del template, reCaptcha_secret_key="YOUR_SECRET_KEY"

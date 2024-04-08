@@ -1,0 +1,87 @@
+[
+   {
+    "Frontend": [
+        {
+            "name": "html5",
+            "title": "HTML"
+        },
+        {
+            "name": "css3",
+            "title": "CSS"
+        },
+        {
+            "name": "js",
+            "title": "JavaScript"
+        },
+        {
+            "name": "vitejs",
+            "title": "Vite"
+        },
+        {
+            "name": "reactjs",
+            "title": "React JS"
+        },
+        {
+            "name": "bootstrap5",
+            "title": "Bottstrap"
+        },
+        {
+            "name": "jquery",
+            "title": "jQuery"
+        }        
+        ]
+    },
+    {
+    "Backend": [
+           {
+               "name": "python",
+               "title": "Python"
+               },
+           {
+               "name": "mysql",
+               "title": "MySQL"
+               },
+           {
+               "name": "django",
+               "title": "Django"
+               },
+           {
+               "name": "flask",
+               "title": "Flask"
+               },
+           {
+               "name": "json",
+               "title": "JSON"
+               },
+           {
+               "name": "swagger",
+               "title": "Swagger"
+               }           
+           ]
+       },
+       {
+    "Tools & Agile": [           
+           {
+               "name": "docker",
+               "title": "Docker"
+               },
+           {
+               "name": "git",
+               "title": "Git"
+               },
+           {
+               "name": "github",
+               "title": "GitHub"
+               },
+           {
+               "name": "vscode",
+               "title": "Visual Studio Code"
+               },
+           {
+               "name": "jira",
+               "title": "Jira"
+               }
+           
+           ]
+       }
+]

@@ -4,8 +4,7 @@
     width: auto;
     height: auto;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
+    justify-content: center;    
 }
 
 .project-container {
@@ -18,14 +17,15 @@
     width: 500px;    
     height: auto;    
     transition: 200ms ease-out;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    background-color: #0c0a2c;
+    background-image: url("/black-linen.png");
 }
 
 
 .project-container:hover {    
     border: 1px solid var(--distint-color);
-    background-color: #14213c;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    background-color: #0f388f;
+    background-image: url("/black-linen.png");
 
 }
 

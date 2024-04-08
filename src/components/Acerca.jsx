@@ -2,7 +2,7 @@ import '../styles/Acerca.css'
 
 function Acerca() {
   return (
-    <div className='new-block' id="acerca-de-mi">
+    <div className='new-block'>
       <h2 className='title-color'>&#9755; About me</h2>
       <section className='acerca-container'>      
         <article className='text-container'>

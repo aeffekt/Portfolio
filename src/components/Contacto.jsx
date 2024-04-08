@@ -41,7 +41,7 @@ export const Contacto = () => {
   };
 
   return (
-    <div className='new-block' id="contacto">      
+    <div className='new-block'>      
       <h2 className='title-color'>&#9998;  Contact me</h2>
       <section className='contacto-container'>              
         <form ref={form} onSubmit={sendEmail}>

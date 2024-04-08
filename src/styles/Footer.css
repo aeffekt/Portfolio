@@ -1,9 +1,10 @@
 .footer-container{    
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
 
-.footer-container span{
-    margin-left: 30px;
+    & span{
+        margin-left: 30px;
+    }
 }
