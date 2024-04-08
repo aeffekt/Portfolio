@@ -13,7 +13,7 @@ function Redes() {
             <i title='Visit GitHUB'>
               <img className='icon' src={logoGit} alt="" />
             </i></a>
-          <a href="https://www.canva.com/design/DAF9tgNgwAQ/i-W-QlEhDnYA1fkfYvDKWg/view?utm_content=DAF9tgNgwAQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          <a href="https://docs.google.com/document/d/1_1Px_wxdpUMe5sOGYl7K1nqZMcMF8k0uviIqJG003RA/edit?usp=sharing"
             target="_blank">
             <i title='Open CV file'>
               <img className='icon' src={logoCv} alt="" />
