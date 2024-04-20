@@ -2,14 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;    
-    width: 100%;
     margin-bottom: 100px;
     
     & form {    
         display: flex;
         align-items: flex-start;
-        flex-direction: column;
-        width: 40%;    
+        flex-direction: column;        
     }
     input {    
         background-color: rgba(0, 0, 0, 0);
@@ -27,7 +25,7 @@
     
     textarea {    
         background-color: rgba(0, 0, 0, 0);    
-        width: 100%;    
+        width: 100%;
         min-height: 100px;
         padding: 7px;
         outline: none;

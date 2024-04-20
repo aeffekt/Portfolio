@@ -10,9 +10,11 @@ function StackIcons() {
       <section className='stackicons-container'>
       {JsonData.map((category, index) => (              
         <div className='fila'>
-          <h3  className='text-sutil'>{Object.keys(category)[0]}</h3>
-          {category[Object.keys(category)[0]].map((item, idx) => (
-            <StackElement key={idx} title={item.title} name={item.name} />
+          <h3  className='text-sutil'>
+            {Object.keys(category)[0]}
+          </h3>
+          {category[Object.keys(category)[0]].map((item, index) => (
+            <StackElement key={index} title={item.title} name={item.name} />
           ))}
         </div>        
       ))}
