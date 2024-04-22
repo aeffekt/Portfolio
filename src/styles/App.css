@@ -1,6 +1,17 @@
-#root {     
-  margin: 0; 
-  padding: 0;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   --distint-color: #ff9d00d4;  
   --title-color: #ffc400d4;  
   --line-color: #959595d4;
@@ -8,19 +19,20 @@
   --button-color: rgb(249, 105, 14);  
 }
 
-*, *::before, *::after{
+* {
   box-sizing: border-box;
 }
 
 html, body{
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
   color: var(--font-color);
-  font-size: 20px;  
+  font-size: 1.1em;  
   scroll-behavior: smooth;
   background-image: linear-gradient(to bottom right, rgb(0, 33, 43), rgb(20, 0, 14));  
   font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+h1 {
+  font-size: 3.2em;  
 }
 
 .distint-color{
@@ -42,14 +54,14 @@ html, body{
   padding:0 20px 0 0;
 }
 
-a li{
+a{
   text-decoration: none;
 }
 
 .new-block{  
   display: block;
   text-align: left;
-  opacity: 1;
+
 }
 
 .new-block > h2{  
@@ -70,12 +82,22 @@ a li{
 @keyframes reveal{
   0%{
       translate: 100px 50px;
-      opacity: 0.1;
+      opacity: 0;
       scale: .5;
   }    
+  75%{
+    opacity: 0.5;
+  }
   100%{
       translate: 0 0;
       opacity: 1;
       scale: 1;
   }
+}
+
+@media 
+  screen and (max-width: 500px) {
+    .navbar-container > .ul-navbar li{
+      font-size: 0.8em;
+    } 
 }

@@ -9,7 +9,7 @@ function StackIcons() {
       <h2 className='title-color'>&#10070; My Stack</h2>
       <section className='stackicons-container'>
       {JsonData.map((category, index) => (              
-        <div className='fila'>
+        <div className='fila' key={index}>
           <h3  className='text-sutil'>
             {Object.keys(category)[0]}
           </h3>

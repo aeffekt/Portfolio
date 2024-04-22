@@ -6,11 +6,10 @@
 }
 
 .experiencia-container{     
-    max-width: 500px;    
+    max-width: 70vh;
     margin-left: 50px;
-    font-size: 18px;
+    margin-right: 50px;
 }
-
 
 .experiencia-container li{
     line-height: 1.2;
