@@ -2,21 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    width: 100%;    
-
-    & .fila span{    
-        width: 40px;
-        margin: 0 20px;
-        animation: reveal 5s ease-out;
-        transition: 600ms ease-out;        
-        border-radius: 100%;
-    
-        &:hover{
-            scale: 1.25;
-        }
-    }
-    
+    align-content: space-between;
+    width: 100%;
 }
 
 .fila{
@@ -25,9 +12,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(121, 121, 121, 0.05),rgba(121, 121, 121, 0.2),rgba(121, 121, 121, 0.05), rgba(0, 0, 0, 0));        
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(121, 121, 121, 0.01),rgba(121, 121, 121, 0.4),rgba(121, 121, 121, 0.01), rgba(0, 0, 0, 0));        
 
     & h3{
         margin-right: 30px;
+    }
+    & .stackicon{
+        width: 40px;
+        margin: 0 20px;
+        animation: reveal 5s ease-out;
+        transition: 600ms ease-out;        
+        border-radius: 100%;    
+        &:hover{
+            scale: 1.25;
+        }
     }
 }

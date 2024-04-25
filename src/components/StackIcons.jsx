@@ -14,7 +14,7 @@ function StackIcons() {
             {Object.keys(category)[0]}
           </h3>
           {category[Object.keys(category)[0]].map((item, index) => (
-            <StackElement key={index} title={item.title} name={item.name} />
+            <StackElement key={index} title={item.title} svg={item.svg}/>
           ))}
         </div>        
       ))}

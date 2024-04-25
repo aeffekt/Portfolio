@@ -1,9 +1,9 @@
-import StackIcon from 'tech-stack-icons'
 
-function StackElement({ title, name }) {
+
+function StackElement({ title, svg }) {
   return (    
-    <div className="stackicon" title={title}>
-        <StackIcon name={name}/>
+    <div className="stackicon" title={title}>        
+        <div dangerouslySetInnerHTML={{ __html: svg }} />
     </div>    
   )
 }
