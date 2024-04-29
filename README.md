@@ -11,7 +11,7 @@ packages:
 @mailjs/browser (contact email)
 react-google-recaptcha
 sonner (toast)
-tech-stack-icons
+tech-stack-icons (reemplazado por svg in JSON file)
 
 Para usar emailjs:
 1- crear cuenta,
