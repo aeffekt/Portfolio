@@ -1,7 +1,7 @@
 [
     {
         "title": "TECSEG",
-        "description": "Equipments and Client Management System. Fundamental tool to improve after-sales service.",
+        "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
         "links": {
                     "GitHub": "https://github.com/aeffekt/TECSEG",

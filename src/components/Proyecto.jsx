@@ -5,7 +5,7 @@ function Proyecto(props) {
       <h3 className='distint-color'>{props.title}</h3>
       <div className="image-container">
         <figure>
-          <img src={props.image} loading='async' />          
+          <img src={props.image} loading='async' alt="Imagen de proyecto"/>          
           <p className="capa">{props.description}</p>          
         </figure>
       </div>

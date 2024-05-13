@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='new-block'>
       <section className='header-container'>
-          <img loading='lazy' decoding='async' className="rounded-circle" src={ logoAA } alt="Imagen" />
+          <img decoding='async' className="rounded-circle" src={ logoAA } alt="Logo Agustin Arnaiz" />
           <div className='text-container'>            
             <h1 className='distint-color'><strong>Agustín Arnaiz</strong></h1>   
             <p>Systems Analyst and <strong className='distint-color'>Full Stack Software Developer</strong>.</p>
