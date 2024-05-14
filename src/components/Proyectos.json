@@ -24,7 +24,8 @@
         "description": "Django Web Blog, with personal accounts and paginated comments list.",
         "image": "/images/webblog.png",
         "links": {
-                    "Github": "https://github.com/aeffekt/TRK-WebBlog"
+                    "Github": "https://github.com/aeffekt/TRK-WebBlog",
+                    "Web": "https://turkian.pythonanywhere.com/"                    
                 },
         "tags": ["Python", "Django", "Bootstrap", "HTML", "CSS"]
 
