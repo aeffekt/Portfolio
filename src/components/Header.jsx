@@ -1,5 +1,5 @@
 import Redes from './Redes'
-import logoAA from '../assets/logo.png'
+import logoAA from '../assets/agustin_arnaiz.jpg'
 import '../styles/Header.css'
 
 
@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='new-block'>
       <section className='header-container'>
-          <img decoding='async' className="rounded-circle" src={ logoAA } alt="Logo Agustin Arnaiz" />
+          <img decoding='async' className="rounded-circle" src={ logoAA } alt="Foto de Agustin Arnaiz" />
           <div className='text-container'>            
             <h1 className='distint-color'><strong>Agustín Arnaiz</strong></h1>   
             <p>Systems Analyst and <strong className='distint-color'>Full Stack Software Developer</strong>.</p>
