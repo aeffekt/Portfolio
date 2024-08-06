@@ -1,48 +1,48 @@
-.navbar-container{    
-    position: fixed;    
-    display: flex;    
+.navbar-container {
+    position: fixed;
+    display: flex;
     right: 0;
-    left: 0;    
+    left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.1);    
+    background-color: rgba(0, 0, 0, 0.1);
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     backdrop-filter: blur(5px);
     height: 68px;
-    z-index: 999;    
+    z-index: 999;
     animation: navbar-scroll ease-out both;
     animation-timeline: scroll(root);
     animation-range: 0 300px;
 }
 
-@keyframes navbar-scroll{
-    to{ 
+@keyframes navbar-scroll {
+    to {
         height: 48px;
-        background-color: rgba(0, 0, 0, 0.7);    
+        background-color: rgba(0, 0, 0, 0.7);
     }
 }
 
-.ul-navbar{
+.ul-navbar {
     display: flex;
     flex-wrap: wrap;
-    list-style: none; 
+    list-style: none;
 }
 
-.ul-navbar li{
+.ul-navbar li {
     color: rgba(56, 134, 168, 0.697);
     padding: 0px 30px;
     font-size: 1.1em;
-    font-weight: 700;   
-    transition: all 0.15s ease-out;           
+    font-weight: 700;
+    transition: all 0.15s ease-out;
 }
 
-.ul-navbar li:hover{
+.ul-navbar li:hover {
     color: var(--distint-color);
     cursor: pointer;
-    scale: 1.1;        
+    scale: 1.1;
     filter: drop-shadow(0px 0px 10px var(--distint-color));
 }
 
-.ul-navbar a li{
+.ul-navbar a li {
     text-decoration: none;
-  }
+}

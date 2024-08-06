@@ -1,45 +1,55 @@
-.header-container {      
+.header-container {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 100px;
-  max-width:auto;
+  max-width: auto;
   justify-content: center;
   align-items: center;
+
   & .text-container {
     margin-left: 80px;
     animation: reveal 2s ease-out, appear 5s ease-in-out;
-    }
-    & .redes-container{ 
-      margin-top: 40px;
-    }
-  
   }
+
+  & .redes-container {
+    margin-top: 40px;
+  }
+
+}
 
 .rounded-circle {
   border-radius: 50%;
   width: 250px;
   height: 250px;
   animation: pulsar 5s ease-in-out infinite, reveal 2s ease-out, appear 5s ease-in-out;
+  transition: 600ms ease-in-out;
+
+  &:hover {
+    scale: 1.2;
+  }
 }
 
-@keyframes appear{
-  0%{    
+@keyframes appear {
+  0% {
     opacity: 0;
   }
-  100%{    
+
+  100% {
     opacity: 1;
   }
 }
 
-@keyframes pulsar{
+@keyframes pulsar {
   0% {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   }
+
   50% {
     box-shadow: 0 0 20px 0 var(--distint-color);
   }
-  100%{
+
+  100% {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   }
 }

@@ -12,97 +12,102 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --distint-color: #ff9d00d4;  
-  --title-color: #ffc400d4;  
+  --distint-color: #ff9d00d4;
+  --title-color: #ffc400d4;
   --line-color: #959595d4;
   --font-color: white;
-  --button-color: rgb(249, 105, 14);  
+  --button-color: rgb(249, 105, 14);
 }
 
 * {
   box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
+  margin: 0px;
   color: var(--font-color);
-  font-size: 1.1em;  
+  font-size: 1.1em;
   scroll-behavior: smooth;
-  background-image: linear-gradient(to bottom right, rgb(0, 33, 43), rgb(20, 0, 14));  
-  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  background-image: linear-gradient(to bottom right, rgb(0, 43, 63), rgb(30, 0, 14));
+  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 {
-  font-size: 3.2em;  
+  font-size: 3.2em;
 }
 
-.distint-color{
-  color: var(--distint-color);  
+.distint-color {
+  color: var(--distint-color);
 }
 
-.title-color{
-  color: var(--title-color);  
+.title-color {
+  color: var(--title-color);
 }
 
-.text-sutil{
+.text-sutil {
   color: rgba(255, 255, 255, 0.662);
   font-weight: 300;
 }
 
-.icon{
+.icon {
   width: 50px;
-  height: 50px;  
-  padding:0 20px 0 0;
+  height: 50px;
+  padding: 0 20px 0 0;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.new-block{  
+.new-block {
   display: block;
   text-align: left;
 
 }
 
-.new-block > h2{  
+.new-block>h2 {
   margin-bottom: 20px;
   margin-left: 50px;
 }
 
-.new-block, .project-container, .experiencias-container {
+.new-block,
+.project-container,
+.experiencias-container {
   animation: reveal 1s linear both;
   animation-timeline: view();
-  animation-range: entry 0% cover 30%;  
+  animation-range: entry 0% cover 30%;
 }
 
-.nav-target{
+.nav-target {
   height: 50px;
 }
 
-@keyframes reveal{
-  0%{
-      translate: 100px 50px;
-      opacity: 0;
-      scale: .5;
-  }    
-  75%{
+@keyframes reveal {
+  0% {
+    translate: 100px 50px;
+    opacity: 0;
+    scale: .5;
+  }
+
+  75% {
     opacity: 0.5;
   }
-  100%{
-      translate: 0 0;
-      opacity: 1;
-      scale: 1;
+
+  100% {
+    translate: 0 0;
+    opacity: 1;
+    scale: 1;
   }
 }
 
-@media 
-  screen and (max-width: 500px) {
-    .navbar-container{
-      height: 200px;
-    }
+@media screen and (max-width: 500px) {
+  .navbar-container {
+    height: 200px;
+  }
 
-    .navbar-container > .ul-navbar li{
-      font-size: 0.8em;
-      padding: 0px 15px;
-    }         
+  .navbar-container>.ul-navbar li {
+    font-size: 0.8em;
+    padding: 0px 15px;
+  }
 }
