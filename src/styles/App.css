@@ -12,11 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --distint-color: #ff9d00d4;
-  --title-color: #ffc400d4;
+  --distint-color: #00fff7d4;
+  --title-color: #a58418;
   --line-color: #959595d4;
   --font-color: white;
-  --button-color: rgb(249, 105, 14);
+  --button-color:#00fff7d4;
 }
 
 * {

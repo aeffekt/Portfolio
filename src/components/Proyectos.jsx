@@ -4,7 +4,8 @@ import Proyecto from './Proyecto'
 import jsonData from'./Proyectos.json'
 
 
-function Proyectos() {    
+function Proyectos() {
+  
 
   return (
     <div className='new-block'>
@@ -23,9 +24,8 @@ function Proyectos() {
             )
           })
         }
-     </section>
-    </div>
-    
+     </section>    
+    </div>    
   )
 }
 

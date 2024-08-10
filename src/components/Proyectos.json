@@ -11,7 +11,7 @@
     },
     {
         "title": "GEST2020",
-        "description": "Purchasing Management System. With an Item Master, Item Lists and Purchase Order generator.",
+        "description": "Purchase Order system. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
         "links": {
                     "Github": "https://github.com/aeffekt/GEST2020"
@@ -20,8 +20,8 @@
 
     },
     {
-        "title": "Web Blog",
-        "description": "Django Web Blog, with personal accounts and paginated comments list.",
+        "title": "Turkian Blog",
+        "description": "Create your personal account and post your comments and ideas online.",
         "image": "/images/webblog.png",
         "links": {
                     "Github": "https://github.com/aeffekt/TRK-WebBlog",
