@@ -63,7 +63,7 @@ a {
 .new-block {
   display: block;
   text-align: left;
-
+  margin-top: 5em;
 }
 
 .new-block>h2 {
@@ -71,10 +71,18 @@ a {
   margin-left: 50px;
 }
 
-.new-block,
 .project-container,
+.contacto-container,
+.acerca-container,
+.stackicons-container,
 .experiencias-container {
-  animation: reveal 1s linear both;
+  animation: revealUp 1s linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+.new-block>h2{
+  animation: revealRight 1s linear both;
   animation-timeline: view();
   animation-range: entry 0% cover 30%;
 }
@@ -83,9 +91,27 @@ a {
   height: 50px;
 }
 
-@keyframes reveal {
+@keyframes revealUp {
   0% {
     translate: 100px 50px;
+    opacity: 0;
+    scale: .5;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    translate: 0 0;
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes revealRight {
+  0% {
+    translate: -700px 0px;
     opacity: 0;
     scale: .5;
   }
