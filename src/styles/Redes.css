@@ -1,0 +1,9 @@
+.icon {
+    filter: grayscale();
+    transition: 500ms ease-out;
+}
+
+.icon:hover {
+    filter: grayscale(0%);
+    scale: 1.2;
+}

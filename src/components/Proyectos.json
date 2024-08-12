@@ -4,39 +4,58 @@
         "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
         "links": {
-                    "GitHub": "https://github.com/aeffekt/TECSEG",
-                    "YouTube": "https://youtu.be/R9mCTTRe128"
-                },
-        "tags": ["Python", "Flask", "MySQL","JavaScript", "Bootstrap", "HTML", "CSS"]
+            "GitHub": "https://github.com/aeffekt/TECSEG",
+            "YouTube": "https://youtu.be/R9mCTTRe128"
+        },
+        "tags": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "title": "GEST2020",
         "description": "Purchase Order system. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
         "links": {
-                    "Github": "https://github.com/aeffekt/GEST2020"
-                },
-        "tags": ["Python", "TKinter", "SQLite", "Pandas", "Numpy"]
-
+            "Github": "https://github.com/aeffekt/GEST2020"
+        },
+        "tags": [
+            "Python",
+            "TKinter",
+            "SQLite",
+            "Pandas",
+            "Numpy"
+        ]
     },
     {
         "title": "Turkian Blog",
         "description": "Create your personal account and post your comments and ideas online.",
         "image": "/images/webblog.png",
         "links": {
-                    "Github": "https://github.com/aeffekt/TRK-WebBlog",
-                    "Web": "https://turkian.pythonanywhere.com/"                    
-                },
-        "tags": ["Python", "Django", "Bootstrap", "HTML", "CSS"]
-
+            "Github": "https://github.com/aeffekt/TRK-WebBlog",
+            "Web": "https://turkian.pythonanywhere.com/"
+        },
+        "tags": [
+            "Python",
+            "Django",
+            "Bootstrap",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "title": "Telemedición XME",
         "description": "Remote control system for equipments and remote measurement via TCP/IP. Allows you to configure up to 100 equipments simultaneously and Generates XLS lists with the data of each.",
         "image": "/images/xme_1.png",
         "links": {
-                    "GitHub": "https://github.com/aeffekt/Telemedicion-XME"
-                },        
-        "tags": ["LabVIEW"]
+            "GitHub": "https://github.com/aeffekt/Telemedicion-XME"
+        },
+        "tags": [
+            "LabVIEW"
+        ]
     }
 ]
