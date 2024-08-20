@@ -39,12 +39,12 @@ h1 {
 
 .distint-color {
   color: var(--distint-color);
-  transition: 300ms ease-out;
+  transition: 150ms ease-out;
 }
 
 .distint-color:hover {
   text-decoration: underline .05em;
-  scale: 1.05;
+  scale: 1.03;
 }
 
 .title-color {
@@ -119,11 +119,13 @@ a {
   0% {
     translate: -700px 0px;
     opacity: 0;
-    scale: .5;
+    scale: .2;
   }
 
-  75% {
-    opacity: 0.5;
+  50% {
+    translate: 10px 0px;
+    opacity: 0.3;
+    scale: .5;
   }
 
   100% {

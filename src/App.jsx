@@ -10,22 +10,22 @@ import Footer from './components/Footer'
 
 import { Toaster, toast } from 'sonner'
 
-function App() {  
-  return (    
-    <>    
-      <Toaster richColors/>      
+function App() {
+  return (
+    <>
+      <Toaster richColors />
       <Navbar />
-      <div className="nav-target" id="home"></div>
+      <section className="nav-target" id="home"></section>
       <Header />
-      <div className="nav-target" id="proyectos"></div>
-      <Proyectos />      
-      <div className="nav-target" id="experiencia"></div>
-      <Experiencias /> 
-      <div className="nav-target" id="stackicons"></div>
+      <section className="nav-target" id="proyectos"></section>
+      <Proyectos />
+      <section className="nav-target" id="experiencia"></section>
+      <Experiencias />
+      <section className="nav-target" id="stackicons"></section>
       <StackIcons />
-      <div className="nav-target" id="acerca-de-mi"></div>
-      <Acerca />      
-      <div className="nav-target" id="contacto"></div>
+      <section className="nav-target" id="acerca-de-mi"></section>
+      <Acerca />
+      <section className="nav-target" id="contacto"></section>
       <Contacto />
 
       <Footer />
