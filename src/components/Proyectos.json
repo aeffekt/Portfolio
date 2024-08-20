@@ -49,7 +49,7 @@
     },
     {
         "title": "Telemedición XME",
-        "description": "Remote control system for equipments and remote measurement via TCP/IP. Allows you to configure up to 100 equipments simultaneously and Generates XLS lists with the data of each.",
+        "description": "Remote control system for up to 100 equipments and remote measurement via TCP/IP.",
         "image": "/images/xme_1.png",
         "links": {
             "GitHub": "https://github.com/aeffekt/Telemedicion-XME"
