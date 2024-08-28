@@ -1,11 +1,31 @@
 [
     {
+        "title": "TRK Blog",
+        "description": "Create your personal account and post your comments and ideas online.",
+        "image": "/images/webblog.png",
+        "year": "2024",
+        "links": {
+            "Web": "https://turkian.pythonanywhere.com/",
+            "Github": "https://github.com/aeffekt/TRK-WebBlog"
+            
+        },
+        "tags": [
+            "Python",
+            "Django",
+            "Bootstrap",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
         "title": "TECSEG",
         "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
+        "year": "2022-2023",
         "links": {
-            "GitHub": "https://github.com/aeffekt/TECSEG",
-            "YouTube": "https://youtu.be/R9mCTTRe128"
+            "YouTube": "https://youtu.be/R9mCTTRe128",
+            "GitHub": "https://github.com/aeffekt/TECSEG"
+            
         },
         "tags": [
             "Python",
@@ -20,6 +40,7 @@
         "title": "GEST2020",
         "description": "Purchase Order system. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
+        "year": "2020-2021",
         "links": {
             "Github": "https://github.com/aeffekt/GEST2020"
         },
@@ -31,26 +52,12 @@
             "Numpy"
         ]
     },
-    {
-        "title": "TRK Blog",
-        "description": "Create your personal account and post your comments and ideas online.",
-        "image": "/images/webblog.png",
-        "links": {
-            "Github": "https://github.com/aeffekt/TRK-WebBlog",
-            "Web": "https://turkian.pythonanywhere.com/"
-        },
-        "tags": [
-            "Python",
-            "Django",
-            "Bootstrap",
-            "HTML",
-            "CSS"
-        ]
-    },
+    
     {
         "title": "Telemedición XME",
         "description": "Remote control system for up to 100 equipments and remote measurement via TCP/IP.",
         "image": "/images/xme_1.png",
+        "year": "2012-2017",
         "links": {
             "GitHub": "https://github.com/aeffekt/Telemedicion-XME"
         },

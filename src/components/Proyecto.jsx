@@ -1,14 +1,21 @@
 function Proyecto(props) {
 
+  const firstLink = Object.entries(props.links)[0]; // [name, link]
+
   return (
     <article className='project-container'>
       <h3 className='distint-color'>{props.title}</h3>
-      <div className="image-container">
-        <figure>
-          <img src={props.image} loading='async' alt="Imagen de proyecto"/>          
-          <p className="capa">{props.description}</p>          
-        </figure>
+      <div className="image-container">        
+        <div className="image-container">
+          <a href={firstLink[1]} target="_blank" rel="noopener noreferrer" title="Open in new tab">
+            <figure>
+              <img src={props.image} loading="async" alt="Imagen de proyecto" />
+              <p className="capa">{props.description} <p>{props.year}</p></p>
+            </figure>
+          </a>
+        </div>        
       </div>
+
       <div className='tags-container' title="Stack info">
         {props.tags.map((tag, index) => (
           <p key={index} className='tags'>{tag}</p>
