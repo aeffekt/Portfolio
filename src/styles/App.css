@@ -12,11 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --distint-color: #00fff7d4;
+  --distint-color-hover: #00fff7d4;
+  --distint-color: #007571d4;
   --title-color: #a58418;
   --line-color: #959595d4;
-  --font-color: white;
-  --button-color: #00fff7d4;
+  --font-color: white;  
 }
 
 * {
