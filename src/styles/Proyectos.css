@@ -26,13 +26,10 @@
 
     &:hover {
         background-color: rgba(32, 104, 160, 0.6);
-        box-shadow: 0 0 20px 0 var(--distint-color);
-        .distint-color{
-            color: var(--distint-color-hover);
-        }
+        box-shadow: 0 0 20px 0 var(--distint-color);        
         .button{
-            color: var(--distint-color-hover);
-            box-shadow: 0 0 10px 0 var(--distint-color);
+            color: var(--distint-color);
+            box-shadow: 0 0 5px 0 var(--distint-color);
         }
     }
 }
@@ -110,14 +107,14 @@
     border-radius: 10px;
     margin: 0px 10px 10px 10px;
     padding: 5px 11px;
-    color: var(--distint-color);
+    color: var(--distint-color-off);
     font-size: 16px;
     transition: all 150ms ease-out;
 }
 
 .links-container a:hover {    
-    border: 2px solid var(--distint-color-hover);    
-    color: var(--distint-color-hover);
+    border: 2px solid var(--distint-color);    
+    color: var(--distint-color);
     color: white;
 }
 

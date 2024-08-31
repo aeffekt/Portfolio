@@ -12,8 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --distint-color-hover: #00fff7d4;
-  --distint-color: #007571d4;
+  --distint-color: #00fff7d4;  
+  --distint-color-off: #007571d4;
   --title-color: #a58418;
   --line-color: #959595d4;
   --font-color: white;  
@@ -95,6 +95,11 @@ a {
 
 .nav-target {
   height: 50px;
+}
+
+.button:hover{  
+  background-color: var(--distint-color-off);
+  box-shadow: 0 0 20px 0 var(--distint-color);
 }
 
 @keyframes revealUp {
