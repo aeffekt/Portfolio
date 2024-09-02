@@ -1,7 +1,7 @@
 [
     {
         "title": "TRK Blog",
-        "description": "Create your personal account and post your comments and ideas online.",
+        "description": "Create an personal account and share your ideas and keep track of private tasks.",
         "image": "/images/webblog.png",
         "year": "2024",
         "links": {
@@ -38,7 +38,7 @@
     },
     {
         "title": "GEST2020",
-        "description": "Purchase Order system. Tailored to fast-perform in the company's environment.",
+        "description": "Purchase Order System. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
         "year": "2020-2021",
         "links": {
@@ -55,7 +55,7 @@
     
     {
         "title": "Telemedición XME",
-        "description": "Remote control system for up to 100 equipments and remote measurement via TCP/IP.",
+        "description": "Remote control and measurement System of High Power R.F. Transmmiters using TCP/IP.",
         "image": "/images/xme_1.png",
         "year": "2012-2017",
         "links": {
