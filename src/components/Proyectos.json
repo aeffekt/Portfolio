@@ -1,7 +1,7 @@
 [
     {
-        "title": "TRK Blog",
-        "description": "Create an personal account and share your ideas and keep track of private tasks.",
+        "title": "Turkian APP",
+        "description": "Create an personal account or login with social account and share your ideas and keep track of private tasks.",
         "image": "/images/webblog.png",
         "year": "2024",
         "links": {
@@ -12,6 +12,7 @@
         "tags": [
             "Python",
             "Django",
+            "Allauth",
             "Bootstrap",
             "HTML",
             "CSS"
