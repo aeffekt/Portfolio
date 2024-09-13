@@ -140,13 +140,10 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .navbar-container {
-    height: 200px;
-  }
-
-  .navbar-container>.ul-navbar li {
-    font-size: 0.8em;
-    padding: 0px 15px;
+@media screen and (max-width: 506px) {
+  .navbar-container>.ul-navbar li a{
+    font-size: 0.65em;
+    padding: 5px;
+    margin: 0;
   }
 }
