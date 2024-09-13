@@ -1,10 +1,33 @@
 .footer-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: space-between;
+    padding: 1em 5em;
+    background-color: rgba(0, 0, 0, 1); 
+    animation: pulsar 15s ease-in-out infinite, reveal 2s ease-out, appear 5s ease-in-out;
+}
 
-    & span {
-        margin-left: 30px;
-    }
+
+.footer-container .center{ 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-container .center h5{
+    margin: 0;
+}
+
+.footer-container .center small{
+    margin: 0;
+    font-weight: 10;
+    font-size: small;    
+}
+
+.footer-container .center span{
+    margin: 0;
+    font-weight: 10;
+    font-size: small;
+    
 }

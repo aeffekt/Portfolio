@@ -1,12 +1,17 @@
 import React from 'react'
 import '../styles/Footer.css'
 import Redes from './Redes'
+import aalogo from '../assets/icon.png'
 
 function Footer() {
   return (
     <footer className='footer-container'>
-      <h6>© 2024 - Agustín Arnaiz</h6>
-      <span><Redes /></span>
+      <img src={aalogo} alt="Agustin Arnaiz Logo" className='logo left'/>
+      <div className='title center'>
+        <h5 className='brand'>Agustín Arnaiz</h5>
+        <small>© 2024</small>        
+      </div>      
+      <span className='redes right'><Redes /></span>
     </footer>
   )
 }
