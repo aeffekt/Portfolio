@@ -33,7 +33,7 @@
     padding: 0px 30px;
     font-size: 1.1em;
     font-weight: 700;
-
+    user-select: none;
 }
 
 .ul-navbar li:hover {
