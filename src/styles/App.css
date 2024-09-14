@@ -39,13 +39,8 @@ h1 {
 
 .distint-color {
   color: var(--distint-color);
-  transition: 150ms ease-out;
 }
 
-.distint-color:hover {
-  text-decoration: underline .05em;
-  scale: 1.03;
-}
 
 .title-color {
   color: var(--title-color);
