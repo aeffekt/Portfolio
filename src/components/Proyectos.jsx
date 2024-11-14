@@ -9,7 +9,7 @@ function Proyectos() {
 
   return (
     <div className='new-block'>
-      <h2 className='title-color'>&#60;&#8725;&#62; Projects</h2>
+      <h2 className='title-color'>&#60;&#8725;&#62; My work</h2>
       <section className='proyectos-container' >      
         {jsonData.map((proyecto, index) => {
             return(
