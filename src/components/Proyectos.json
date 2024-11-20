@@ -49,8 +49,7 @@
             "Python",
             "Django",
             "Django REST framework",
-            "SQLite",
-            "Swagger"            
+            "SQLite"            
         ]
     },
     
