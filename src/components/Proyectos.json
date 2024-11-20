@@ -37,6 +37,22 @@
             "CSS"
         ]
     },
+    
+    {
+        "title": "FastAPI & MongoDB API",
+        "description": "Simple API with FastAPI and MongoDB.",
+        "image": "/images/fastapimongo.png",
+        "year": "2024",
+        "links": {
+            "Github": "https://github.com/aeffekt/FastAPI_MongoDB_app"
+        },
+        "tags": [
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Swagger"            
+        ]
+    },
     {
         "title": "GEST2020",
         "description": "Purchase Order System. Tailored to fast-perform in the company's environment.",
