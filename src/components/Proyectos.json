@@ -37,10 +37,26 @@
             "CSS"
         ]
     },
+    {
+        "title": "Django RESTful API",
+        "description": "Django REST framework RESTful API grants access to relational database.",
+        "image": "/images/djangodrf.png",
+        "year": "2024",
+        "links": {
+            "Github": "https://github.com/aeffekt/Django_projects/tree/main/basic_api"
+        },
+        "tags": [
+            "Python",
+            "Django",
+            "Django REST framework",
+            "SQLite",
+            "Swagger"            
+        ]
+    },
     
     {
-        "title": "FastAPI & MongoDB API",
-        "description": "Simple API with FastAPI and MongoDB.",
+        "title": "FastAPI RESTful API",
+        "description": "Access via JWT AUTH to a no relational database.",
         "image": "/images/fastapimongo.png",
         "year": "2024",
         "links": {
