@@ -9,7 +9,7 @@ function Footer() {
       <img src={aalogo} alt="Agustin Arnaiz Logo" className='logo left'/>
       <div className='title center'>
         <h5 className='brand'>Agustín Arnaiz</h5>
-        <small>© 2024</small>        
+        <small>© 2025</small>        
       </div>      
       <span className='redes right'><Redes /></span>
     </footer>
