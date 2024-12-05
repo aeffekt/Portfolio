@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
@@ -28,8 +27,7 @@ function App() {
       <Acerca />
       <section className="nav-target" id="contacto"></section>
       <Contacto />
-      <Footer />
-      <SpeedInsights />
+      <Footer />      
     </>
   )
 }
