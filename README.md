@@ -12,6 +12,7 @@ packages:
 react-google-recaptcha
 sonner (toast)
 tech-stack-icons (reemplazado por svg in JSON file)
+npm i @vercel/speed-insights
 
 Para usar emailjs:
 1- crear cuenta,
