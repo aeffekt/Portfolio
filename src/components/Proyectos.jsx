@@ -18,6 +18,7 @@ function Proyectos() {
                 title={proyecto.title}
                 description={proyecto.description}
                 image={proyecto.image}
+                type={proyecto.type}
                 year={proyecto.year}
                 links={proyecto.links}
                 tags={proyecto.tags}

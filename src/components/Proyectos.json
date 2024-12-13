@@ -3,7 +3,8 @@
         "title": "Turkian APP",
         "description": "Create a personal account or login with social account and share your ideas and keep track of private tasks.",
         "image": "/images/webblog.png",
-        "year": "CMS 2024",
+        "type": "CMS",
+        "year": "2024",
         "links": {
             "Web": "https://turkian.pythonanywhere.com/",
             "Github": "https://github.com/aeffekt/TRK-WebBlog"
@@ -22,7 +23,8 @@
         "title": "Web Veterinaria",
         "description": "Design and deploy of web page for vet services and professional pets care.",
         "image": "/images/vetweb.png",
-        "year": "CMS 2024",
+        "type": "CMS",
+        "year": "2024",
         "links": {
             "Web": "https://dermatoanimalcordoba.vercel.app/",
             "Github": "https://github.com/aeffekt/vetweb"
@@ -38,7 +40,8 @@
         "title": "TECSEG",
         "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
-        "year": "CRM & WOS 2022-2023",
+        "type": "CRM & WOS",
+        "year": "2022-2023",
         "links": {
             "YouTube": "https://youtu.be/R9mCTTRe128",
             "GitHub": "https://github.com/aeffekt/TECSEG"
@@ -57,7 +60,8 @@
         "title": "Django RESTful API",
         "description": "Django REST framework RESTful API grants access to relational database.",
         "image": "/images/djangodrf.png",
-        "year": "API 2024",
+        "type": "API",
+        "year": "2024",
         "links": {
             "Github": "https://github.com/aeffekt/Django_projects/tree/main/basic_api"
         },
@@ -73,7 +77,8 @@
         "title": "FastAPI RESTful API",
         "description": "Access via JWT AUTH to a no relational database.",
         "image": "/images/fastapimongo.png",
-        "year": "API 2024",
+        "type": "API",
+        "year": "2024",
         "links": {
             "Github": "https://github.com/aeffekt/FastAPI_MongoDB_app"
         },
@@ -88,7 +93,8 @@
         "title": "GEST2020",
         "description": "Purchase Order System. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
-        "year": "ETL & POS 2020-2021",
+        "type": "ETL & POS",
+        "year": "2020-2021",
         "links": {
             "Github": "https://github.com/aeffekt/GEST2020"
         },
@@ -103,8 +109,9 @@
     
     {
         "title": "Telemedición XME",
-        "description": "Remote control and measurement System of High Power R.F. Transmiters using TCP/IP. (SCADA)",
+        "description": "Remote control and measurement System of High Power R.F. Transmiters using TCP/IP.",
         "image": "/images/xme_1.png",
+        "type": "SCADA",
         "year": "2012-2017",
         "links": {
             "GitHub": "https://github.com/aeffekt/Telemedicion-XME"

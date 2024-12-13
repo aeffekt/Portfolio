@@ -10,7 +10,7 @@ function Proyecto(props) {
           <a href={firstLink[1]} target="_blank" rel="noopener noreferrer" title="Open in new tab">
             <figure>
               <img src={props.image} loading="async" alt="Imagen de proyecto" />
-              <div className="capa">{props.description} <small>({props.year})</small></div>
+              <div className="capa">{props.description} <small>({props.type} - {props.year})</small></div>
             </figure>
           </a>
         </div>        
