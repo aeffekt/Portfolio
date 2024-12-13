@@ -1,7 +1,7 @@
 [
     {
         "title": "Turkian APP",
-        "description": "Create a personal account or login with social account and share your ideas and keep track of private tasks.",
+        "description": "Create a personal account or login with social account and share your ideas and keep track of private tasks. (CMS)",
         "image": "/images/webblog.png",
         "year": "2024",
         "links": {
@@ -20,7 +20,7 @@
     },
     {
         "title": "Web Veterinaria",
-        "description": "Design and deploy of web page for vet services and professional pets care.",
+        "description": "Design and deploy of web page for vet services and professional pets care. (CMS)",
         "image": "/images/vetweb.png",
         "year": "2024",
         "links": {
@@ -36,7 +36,7 @@
     },
     {
         "title": "TECSEG",
-        "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
+        "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.(CRM & WOS)",
         "image": "/images/tecseg_reporte.png",
         "year": "2022-2023",
         "links": {
@@ -55,7 +55,7 @@
     },
     {
         "title": "Django RESTful API",
-        "description": "Django REST framework RESTful API grants access to relational database.",
+        "description": "Django REST framework RESTful API grants access to relational database. (API)",
         "image": "/images/djangodrf.png",
         "year": "2024",
         "links": {
@@ -71,7 +71,7 @@
     
     {
         "title": "FastAPI RESTful API",
-        "description": "Access via JWT AUTH to a no relational database.",
+        "description": "Access via JWT AUTH to a no relational database. (API)",
         "image": "/images/fastapimongo.png",
         "year": "2024",
         "links": {
@@ -86,7 +86,7 @@
     },
     {
         "title": "GEST2020",
-        "description": "Purchase Order System. Tailored to fast-perform in the company's environment.",
+        "description": "Purchase Order System. Tailored to fast-perform in the company's environment. (ETL & POS)",
         "image": "/images/gest.png",
         "year": "2020-2021",
         "links": {
@@ -103,7 +103,7 @@
     
     {
         "title": "Telemedición XME",
-        "description": "Remote control and measurement System of High Power R.F. Transmiters using TCP/IP.",
+        "description": "Remote control and measurement System of High Power R.F. Transmiters using TCP/IP. (SCADA)",
         "image": "/images/xme_1.png",
         "year": "2012-2017",
         "links": {
