@@ -23,6 +23,7 @@ export const Contacto = () => {
       toast.warning("Please complete the reCAPTCHA.");
       return;
     }
+    
 
     toast.info("Sending...") 
     emailjs
@@ -34,7 +35,7 @@ export const Contacto = () => {
           toast.success('Message sent!')          
         },
         (error) => {          
-          toast.error("Failed to send the message, mark the reCaptcha and try again!")
+          toast.error("Failed to send the message, please try again!")
           console.log(error.text);
         },
       );
@@ -52,12 +53,14 @@ export const Contacto = () => {
           <label htmlFor="message">Message</label>
           <textarea name="message" id='message' required />           
           <input type="submit" value="Send" />
+          
           <ReCAPTCHA
             className='recaptcha'            
             name="captcha"
             sitekey={RECAPTCHA_WEB_SITE}            
             required
           />
+          
         </form>
       </section>
     </div>    
