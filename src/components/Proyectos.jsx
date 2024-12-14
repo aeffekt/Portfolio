@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Proyectos.css'
 import Proyecto from './Proyecto'
-import jsonData from'./Proyectos.json'
+import jsonData from'../data/Proyectos.json'
 
 
 function Proyectos() {

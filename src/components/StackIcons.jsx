@@ -1,6 +1,6 @@
 import '../styles/StackIcons.css'
 import StackElement from './StackElement'
-import JsonData from './StackIcons.json'
+import JsonData from '../data/StackIcons.json'
 
 function StackIcons() {
 

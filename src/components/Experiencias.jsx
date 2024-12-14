@@ -1,5 +1,5 @@
 import React from 'react'
-import jsonData from'./Experiencias.json'
+import jsonData from'../data/Experiencias.json'
 import Experiencia from './Experiencia'
 import '../styles/Experiencia.css'
 
