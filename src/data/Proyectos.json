@@ -1,5 +1,22 @@
 [
     {
+        "title": "Project Manager API",
+        "description": "Layered designed RESTful API for managing Projects and tasks assigned to employees. Includes sync & async versioning connectionto a supabase hosted DB.",
+        "image": "/images/fastapipostgresql.jpg",
+        "type": "API",
+        "year": "2025",
+        "links": {
+            "Github": "https://github.com/aeffekt/Project-manager-api"
+        },
+        "tags": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "SQLModel",
+            "Alembic"
+        ]
+    },
+    {
         "title": "Turkian APP",
         "description": "Create a personal account or login with social account and share your ideas and keep track of private tasks.",
         "image": "/images/webblog.png",
