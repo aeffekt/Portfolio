@@ -1,7 +1,7 @@
 [
     {
         "title": "Project Manager API",
-        "description": "Layered designed RESTful API for managing Projects and tasks assigned to employees. Includes sync & async versioning connectionto a supabase hosted DB.",
+        "description": "Layered designed RESTful API for managing Projects. Includes sync & async versioning, connection to a supabase hosted DB.",
         "image": "/images/fastapipostgresql.jpg",
         "type": "API",
         "year": "2025",
