@@ -14,7 +14,7 @@ function Redes() {
         <i title='Visit GitHUB'>
           <img className='icon' src={logoGit} alt="Logo GitHub" />
         </i></a>
-      <a href="https://docs.google.com/document/d/1_1Px_wxdpUMe5sOGYl7K1nqZMcMF8k0uviIqJG003RA/edit?usp=sharing"
+      <a href="https://docs.google.com/document/d/1G5P3lpNDVEHUCnlSeT_mGEnyFiV9_wO-AxlpS070oKM/edit?usp=sharing"
         target="_blank">
         <i title='Open CV file'>
           <img className='icon' src={logoCv} alt="Logo CV" />
