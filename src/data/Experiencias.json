@@ -1,6 +1,25 @@
 [
+  {
+    "date": "april 2025 - today",
+    "title": "Python Backend Engineer",
+    "company": "PwC Argentina",
+    "description": "Design and development of Python backend software.",
+    "tasks":[      
+      "Develop RESTful API using FastAPI and SQLModel for agent-based text modification system.",
+      "Implement LLM agent integration with Langfuse for text processing across 13 languages.",
+      "Design and implement repository pattern and registry pattern for scalable backend architecture."
+    ],    
+    "feats":[
+      "Built API system enabling automated text modification following company guidelines.",
+      "Integrated Langfuse for LLM observability and monitoring in production environment.",
+      "Implemented multi-language support for text processing across 13 different languages.",
+      "Applied repository pattern and registry pattern following backend best practices.",
+      "Developed Pydantic models ensuring data validation and type safety throughout the system.",
+      "Created agent-based architecture allowing seamless LLM integration for text transformation."
+    ]
+  },
     {
-    "date": "april 2020 - Today",
+    "date": "april 2020 - march 2025",
     "title": "Software Developer",
     "company": "L.I.E. S.R.L.",
     "description": "Design and development of Python aplications.",
