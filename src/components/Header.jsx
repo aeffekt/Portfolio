@@ -38,8 +38,8 @@ function Header() {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="text-lg text-slate-300 sm:text-xl">
-                Systems Analyst ·{' '}
-                <strong className="font-semibold text-cyan-300">Backend Software Engineer</strong>
+                <strong className="font-semibold text-cyan-300">Backend Software Engineer ·{' '}
+                Systems Analyst</strong>
               </p>
             </Reveal>
             <Reveal delay={0.2}>

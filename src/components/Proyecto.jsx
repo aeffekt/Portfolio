@@ -3,6 +3,11 @@ import { itemFadeUp } from '../lib/motionVariants'
 
 function Proyecto(props) {
   const firstLink = Object.entries(props.links)[0]
+  const metaText = `(${props.type} — ${props.year})`
+  const estimatedLines = Math.max(2, Math.min(7, Math.ceil((props.description.length + metaText.length) / 52)))
+  const darkZone = Math.min(72, 18 + estimatedLines * 7)
+  const fadeEnd = Math.min(96, darkZone + 20)
+  const overlayGradient = `linear-gradient(to top, rgba(2,6,23,0.92) 0%, rgba(2,6,23,0.78) ${darkZone}%, rgba(2,6,23,0) ${fadeEnd}%)`
 
   return (
     <motion.article
@@ -18,20 +23,23 @@ function Proyecto(props) {
         target="_blank"
         rel="noopener noreferrer"
         title="Open in new tab"
-        className="relative block overflow-hidden bg-slate-950"
+        className="group/image relative block overflow-hidden bg-slate-950"
       >
         <figure className="relative aspect-[16/10] overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900">
           <motion.img
             src={props.image}
             loading="lazy"
             alt={props.title}
-            className="h-full w-full object-contain object-center p-2 transition-transform duration-500 group-hover:scale-[1.01]"
+            className="h-full w-full object-contain object-center p-2 transition-transform duration-900 ease-out group-hover/image:scale-[1.08]"
           />
-          <figcaption className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-slate-950 via-slate-950/85 to-transparent p-4 opacity-95 transition-opacity duration-300 group-hover:opacity-100 md:translate-y-1 md:opacity-90 md:group-hover:translate-y-0">
+          <figcaption
+            className="pointer-events-none absolute inset-0 flex translate-y-2 flex-col justify-end p-4 opacity-0 transition-all duration-300 group-hover/image:translate-y-0 group-hover/image:opacity-100"
+            style={{ backgroundImage: overlayGradient }}
+          >
             <p className="text-sm text-slate-200">
               {props.description}{' '}
               <span className="text-slate-400">
-                ({props.type} — {props.year})
+                {metaText}
               </span>
             </p>
           </figcaption>
