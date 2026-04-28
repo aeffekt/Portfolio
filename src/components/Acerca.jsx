@@ -9,31 +9,22 @@ function Acerca() {
       <Reveal>
         <article className="space-y-6 rounded-2xl border border-slate-800/90 bg-slate-900/40 p-6 text-lg leading-relaxed text-slate-400 shadow-xl ring-1 ring-white/5 sm:p-10">
           <p>
-            My name is Agustín Arnaiz and I am a <strong className="font-semibold text-slate-200">Systems Developer</strong>.
-            <strong className="font-semibold text-cyan-300">
-              {' '}
-              My first steps as a programmer were in &quot;C&quot; and &quot;Assembler&quot;
-            </strong>{' '}
-            studying Electronics Engineering at the <strong className="text-slate-200">UTN FRC</strong> in the year 2000.
+            I am Agustín Arnaiz, a <strong className="font-semibold text-slate-200">Systems Analyst and Backend Software Engineer</strong>.
+            <strong className="font-semibold text-cyan-300"> My programming journey started with C and Assembler</strong> while
+            studying Electronics Engineering at <strong className="text-slate-200">UTN FRC</strong>.
           </p>
           <p>
-            With my work, I have brought significant changes to the company for which I work, as well as its clients.
-            <strong className="font-semibold text-cyan-300">
-              {' '}
-              I managed to integrate new technologies, and with it, new possibilities.
-            </strong>{' '}
-            How to streamline the purchases processes <strong className="italic text-slate-300">(GEST2020)</strong> and improve
-            it&apos;s after-sales customer service <strong className="italic text-slate-300">(TECSEG)</strong>.
+            Throughout my career, I have focused on building software that creates measurable impact for both companies and their
+            customers.
+            <strong className="font-semibold text-cyan-300"> I introduced new technologies that opened real business opportunities</strong>,
+            from streamlining purchasing workflows with <strong className="italic text-slate-300">GEST2020</strong> to improving
+            after-sales operations with <strong className="italic text-slate-300">TECSEG</strong>.
           </p>
           <p>
-            In addition, the <strong className="italic text-slate-300">&quot;XME Telemetry&quot;</strong> system{' '}
-            <strong className="font-semibold text-cyan-300">
-              allowed a new product to be marketed to customers,
-            </strong>{' '}
-            By providing the possibility of commanding high power transmitters in remote locations, and with this, being able{' '}
-            <strong className="font-semibold text-cyan-300">
-              to provide a better assistance with technical problems.
-            </strong>
+            I also developed <strong className="italic text-slate-300">XME Telemetry</strong>, a system that enabled remote control of
+            high-power transmitters.
+            <strong className="font-semibold text-cyan-300"> This solution became a new product line</strong> and improved technical
+            support by reducing response times in critical scenarios.
           </p>
         </article>
       </Reveal>

@@ -20,12 +20,12 @@ function Proyecto(props) {
         title="Open in new tab"
         className="relative block overflow-hidden bg-slate-950"
       >
-        <figure className="relative aspect-[16/10] overflow-hidden">
+        <figure className="relative aspect-[16/10] overflow-hidden bg-gradient-to-b from-slate-950 to-slate-900">
           <motion.img
             src={props.image}
             loading="lazy"
             alt={props.title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+            className="h-full w-full object-contain object-center p-2 transition-transform duration-500 group-hover:scale-[1.01]"
           />
           <figcaption className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-slate-950 via-slate-950/85 to-transparent p-4 opacity-95 transition-opacity duration-300 group-hover:opacity-100 md:translate-y-1 md:opacity-90 md:group-hover:translate-y-0">
             <p className="text-sm text-slate-200">

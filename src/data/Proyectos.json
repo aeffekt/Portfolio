@@ -1,6 +1,6 @@
 [
     {
-        "title": "Project Manager API",
+        "title": "Project Manager API (FastAPI)",
         "description": "Layered designed RESTful API for managing Projects. Includes sync & async versioning, connection to a supabase hosted DB.",
         "image": "/images/fastapipostgresql.jpg",
         "type": "API",
@@ -17,7 +17,7 @@
         ]
     },
     {
-        "title": "Turkian APP",
+        "title": "TRK WebBlog (Django)",
         "description": "Create a personal account or login with social account and share your ideas and keep track of private tasks.",
         "image": "/images/webblog.png",
         "type": "CMS",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "title": "Web Veterinaria",
+        "title": "Web Veterinaria (React JS)",
         "description": "Design and deploy of web page for vet services and professional pets care.",
         "image": "/images/vetweb-new.jpg",
         "type": "CMS",
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "title": "TECSEG",
+        "title": "TECSEG (Python Web App)",
         "description": "Equipments and Clients Management System. Fundamental tool to improve after-sales service.",
         "image": "/images/tecseg_reporte.png",
         "type": "ERP",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "title": "Django RESTful API",
+        "title": "RESTful API (Django)",
         "description": "Django REST framework RESTful API grants access to relational database.",
         "image": "/images/djangodrf.png",
         "type": "API",
@@ -92,7 +92,7 @@
     },
     
     {
-        "title": "FastAPI RESTful API",
+        "title": "RESTful API (FastAPI)",
         "description": "Access via JWT AUTH to a no relational database.",
         "image": "/images/fastapimongo.png",
         "type": "API",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "title": "GEST2020",
+        "title": "GEST2020 (Python Desktop App)",
         "description": "Purchase Order System. Tailored to fast-perform in the company's environment.",
         "image": "/images/gest.png",
         "type": "ETL & POS",
@@ -126,7 +126,7 @@
     },
     
     {
-        "title": "Telemedición XME",
+        "title": "Telemedición XME (LabVIEW)",
         "description": "Remote control and measurement System of High Power R.F. Transmiters using TCP/IP.",
         "image": "/images/xme_1.png",
         "type": "SCADA",

@@ -10,10 +10,12 @@ function StackElement({ title, svg }) {
       whileHover={{ y: -4, scale: 1.03 }}
       transition={{ type: 'spring', stiffness: 400, damping: 22 }}
     >
-      <div
-        className="flex h-10 w-10 items-center justify-center [&_svg]:max-h-full [&_svg]:max-w-full"
-        dangerouslySetInnerHTML={{ __html: svg }}
-      />
+      <div className="flex h-10 w-10 items-center justify-center overflow-visible">
+        <div
+          className="[&_svg]:block [&_svg]:h-auto [&_svg]:max-h-10 [&_svg]:max-w-10 [&_svg]:w-auto"
+          dangerouslySetInnerHTML={{ __html: svg }}
+        />
+      </div>
     </motion.div>
   )
 }

@@ -26,7 +26,7 @@ function Header() {
           <div className="max-w-2xl space-y-4 text-center md:text-left">
             <Reveal delay={0.05}>
               <p className="font-display text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
-                Backend · APIs · Systems
+                Backend Engineer · APIs · Production Systems
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -38,20 +38,35 @@ function Header() {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="text-lg text-slate-300 sm:text-xl">
-                Systems Analyst and{' '}
-                <strong className="font-semibold text-cyan-300">Backend Software Engineer</strong>.
+                Systems Analyst ·{' '}
+                <strong className="font-semibold text-cyan-300">Backend Software Engineer</strong>
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-slate-400">
-                With proven experience in design, developing and deploying Software Systems.
+                I build reliable services: REST APIs, integrations, data flows and automations—designed to scale, observable in production, and easy to maintain.
               </p>
             </Reveal>
-            <Reveal delay={0.25}>
-              <p className="border-l-2 border-cyan-500/40 pl-4 italic text-slate-400">
-                &ldquo;I am highly driven by the process of{' '}
-                <strong className="font-semibold not-italic text-slate-200">creating new things.</strong>&rdquo;
+            <Reveal delay={0.23}>
+              <p className="text-slate-400">
+                Strong focus on <span className="text-slate-200">clean architecture</span>, <span className="text-slate-200">type-safe models</span>, and <span className="text-slate-200">pragmatic engineering</span>.
               </p>
+            </Reveal>
+            <Reveal delay={0.28}>
+              <div className="flex flex-wrap items-center justify-center gap-3 pt-2 md:justify-start">
+                <a
+                  href="#proyectos"
+                  className="inline-flex items-center justify-center rounded-xl border border-cyan-500/35 bg-cyan-500/10 px-5 py-2.5 font-display text-xs font-semibold uppercase tracking-wide text-cyan-200 transition-colors hover:bg-cyan-500/20 hover:text-white"
+                >
+                  View projects
+                </a>
+                <a
+                  href="#contacto"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-700/70 bg-slate-900/50 px-5 py-2.5 font-display text-xs font-semibold uppercase tracking-wide text-slate-200 transition-colors hover:border-emerald-500/30 hover:bg-emerald-500/10 hover:text-white"
+                >
+                  Contact
+                </a>
+              </div>
             </Reveal>
             <Reveal delay={0.3}>
               <Redes className="justify-center md:justify-start pt-2" />
