@@ -26,7 +26,7 @@ function Header() {
           <div className="max-w-2xl space-y-4 text-center md:text-left">
             <Reveal delay={0.05}>
               <p className="font-display text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
-                Backend Engineer · APIs · Production Systems
+                Backend Engineer · Systems Analyst
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -35,13 +35,7 @@ function Header() {
                   Agustín Arnaiz
                 </span>
               </h1>
-            </Reveal>
-            <Reveal delay={0.15}>
-              <p className="text-lg text-slate-300 sm:text-xl">
-                <strong className="font-semibold text-cyan-300">Backend Software Engineer ·{' '}
-                Systems Analyst</strong>
-              </p>
-            </Reveal>
+            </Reveal>            
             <Reveal delay={0.2}>
               <p className="text-slate-400">
                 I build reliable services: REST APIs, integrations, data flows and automations—designed to scale, observable in production, and easy to maintain.
